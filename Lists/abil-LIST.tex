@@ -1,0 +1,234 @@
+%%%%%
+%%
+%% This file sets up the Abil datatype and creates Abil macros.  These
+%% are for abilities that characters may have.
+%%
+%%%%%
+
+\DECLARESUBTYPE{Abil}{Element}
+\PRESETS{Abil}{
+  \F\MYtext	%% text of ability, read by user
+  \F\MYeffect	%% effect text of ability, read by recipient(s)
+  }
+
+
+%%%%%
+%% \ability{<name>}{<text>}{<effect>}
+%%
+%% \ability is a wrapper around \INSTANCE, useful for 1-shot abilities,
+%% etc.
+\newinstance{Abil}{\ability[3]}{
+  \s\MYname{#1}\s\MYtext{#2}\s\MYeffect{#3}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\NEW{Abil}{\aTest}{
+  \s\MYname	{Test Ability}
+  \s\MYtext	{You are a test.}
+  \s\MYeffect	{This is a Test.}
+  }
+
+\NEW{Abil}{\aSpecial}{
+  \s\MYname	{Special Powers}
+  \s\MYtext	{You have special powers, as detailed in your \gTest{}
+		greensheet.}
+  \s\MYeffect	{I have special powers!}
+  \s\MYgreens	{\gTest{}}
+  \suite
+  }
+
+\NEW{Abil}{\aRegeneration}{
+  \s\MYname	{Regeneration}
+  \s\MYtext	{You can only be killed if you are wounded or killing blowed using fire. If you are wounded with no use of a fire weapon, you enter the ``Knocked Out'' state and regenerate health for 5 minutes.}
+  \s\MYeffect	{The wounds seem to be closing up!}
+  }
+	
+\NEW{Abil}{\aShapeshifting}{
+  \s\MYname	{Tear of Magic}
+  \s\MYtext	{You have a +10 defensive CR}
+  \s\MYeffect	{This person's form shifts into a small animal, he/she ignores your attack}
+  }
+	
+\NEW{Abil}{\aImpenetrableScales}{
+  \s\MYname	{Impenetrable Scales}
+  \s\MYtext	{You can only be killed by use of a specific legendary sword known as the Sword of Ice! If you would be wounded by any other means, instead you go ``Not Here'' and spend the next 5 minutes regenerating.}
+  \s\MYeffect	{You cannot defeat me! I fly away with anger in my eyes.}
+  }
+	
+\NEW{Abil}{\aBattleRage}{
+  \s\MYname	{Battle Rage}
+  \s\MYtext	{If you are being wounded by an attack that you cannot normally resist, resist it freely. For the next 1 minute, you get +5 CR. After this duration, you are fatigued and enter the ``Knocked Out'' state. Wake up in 5 minutes healthy.}
+  \s\MYeffect	{Your attack bounces off and you see my eyes glow red.}
+  }
+	
+\NEW{Abil}{\aBlink}{
+  \s\MYname	{Teleport}
+  \s\MYtext	{If you would be attacked you may dimensionally teleport to the teleporter Room. Upon arrival in the Teleporter Room you are knocked out for 5 minutes. This ablity cannot be be used while wouned or knocked out, or if you hear the word "`Somnus!"' before blinking.}
+  \s\MYeffect	{Just as you were about to strike, your foe vanishes!}
+  }
+	
+\NEW{Abil}{\aAbyss}{
+  \s\MYname	{Hell Fire}
+  \s\MYtext	{If you would be knocked out or wounded you may immediately make a knock out attack of cr 15 on everyone within 2 zones of control. This ablity has a 1 hour cool down.}
+  \s\MYeffect	{Just as you were about to strike, a blast of dark fire shoot forth}
+  }
+	
+\NEW{Abil}{\aSmokeBomb}{
+  \s\MYname	{Now You See Me}
+  \s\MYtext	{If you would be attacked you may throw a Smoke Bomb, this consumes it, tear up the item card. You spend the next 5 minutes ``Not Here'', renter game in any room you have already visited.}
+	\s\MYeffect	{*Cough* Where did your enemy go?! *Cough* And why is there so much smoke?!}
+  }
+	
+\NEW{Abil}{\aPhylactery}{
+  \s\MYname	{Phylactery}
+  \s\MYtext	{If you would be killed: your body disintegrates into nothingness, go ``Not Here'' and reform in a separate room of your choice in gamespace. You can only be killed when your phylactery has been destroyed.}
+  \s\MYeffect	{An unimpressed expression forms on my face as I disintegrate into the ground.}
+  }
+	
+\NEW{Abil}{\aBloodBank}{
+  \s\MYname	{Blood Bank}
+  \s\MYtext	{Using all the stored blood you have you may return from death once. Pretend to be dead and when you choose you may return to game in the spot where you where struck down. You may only pretend to be dead for a maximum of thirty minutes}
+  \s\MYeffect	{The Vampires eyes fill with life as it rises from the dead}
+  }
+
+\NEW{Abil}{\aRiddleMeThis}{
+  \s\MYname	{Riddle Me This!}
+  \s\MYtext	{You have a +10 defensive CR}
+  \s\MYeffect	{It's eyes they are so hypnotic}
+  }
+\NEW{Abil}{\aHealer}{
+  \s\MYname	{Healer}
+  \s\MYtext	{You must touch the intented wounded target for three minutes, afterwhich they become knocked out for the remaining time they would be wounded. This ablity can be stopped by other players.}
+  \s\MYeffect	{This person is applying first aid though magic. This ablity can be stopped by other players.}
+  }
+\NEW{Abil}{\aBagofHolding}{
+  \s\MYname	{Bag of Holding}
+  \s\MYtext	{You may hold and hide without physically holding 1 hand bulky worth of items. The item you are storing can still be found in a full body search.}
+  \s\MYeffect	{I have a small pocket dimension perfect for stolen goods}
+  }
+	
+\NEW{Abil}{\aStoneGaze}{
+  \s\MYname	{Stone Gaze}
+  \s\MYtext	{If you would be attacked you may, you freeze your enemies for 5 minutes. They enter the``Knocked Out, but since they become a statue they cannot be targeted by attacks, killing blows, or searches. This move has a 30 minute cool down.}
+  \s\MYeffect	{You are turn to stone. You enter the``Knocked Out'' state, but because you are now a statue you cannot be targeted by attacks, killing blows, or searches.}
+  }
+%% Basic DarkWater-style Martial Attack abilities
+
+
+%% Everyone has these 3
+\NEW{Abil}{\aAssist}{
+  \s\MYname	{Assist}
+  \s\MYtext	{You can assist someone else's attack.  You must be
+		within ZoC of both the attacker and target.  Within two
+		seconds of an attack, direct this at the attacker,
+		saying ``\MYname'' and your CR.}
+  \s\MYeffect	{I assist your attack.}
+  }
+
+\NEW{Abil}{\aKnockOut}{
+  \s\MYname	{Knock Out}
+  \s\MYtext	{You can knock someone out as an attack.  Say ``\MYname'' and your CR.}
+  \s\MYeffect	{I knock you out.}
+  }
+
+\NEW{Abil}{\aWound}{
+  \s\MYname	{Wound}
+  \s\MYtext	{You can wound someone as an attack.  Say ``\MYname'' and
+		your CR.}
+  \s\MYeffect	{I wound you.}
+  }
+
+
+%% the \basecombat macro can be prepended to the Char abils list
+%% (in char-LIST.tex)
+\def\basecombat{\aKnockOut{}\aWound{}\aAssist{}}
+
+
+%% only some people have these
+\NEW{Abil}{\aDisarm}{
+  \s\MYname	{Disarm}
+  \s\MYtext	{You can disarm one item from someone as an attack.  Say
+		``\MYname'' and your CR.  Point at the item you want to
+		disarm.  If the attack works, they must drop that item.}
+  \s\MYeffect	{I disarm that item.}
+  }
+
+\NEW{Abil}{\aRestrain}{
+  \s\MYname	{Restrain}
+  \s\MYtext	{You can restrain someone as an attack.  Say ``\MYname''
+		and your CR.  You may freely drag, attack, or (if you have
+		a weapon) killing-blow them.  To do anything else, or if
+		your health state changes, incant ``release'' and let them
+		go.}
+  \s\MYeffect	{I restrain you.  You are restrained until I incant
+		``release.''}
+  }
+
+\NEW{Abil}{\aThrow}{
+  \s\MYname	{Throw}
+  \s\MYtext	{You can throw someone as an attack.  Say ``\MYname'' and
+		your CR.  Point in the direction you want to throw them.}
+  \s\MYeffect	{I throw you.  Go in the direction I point ten full steps
+		or until you hit a wall or similar.}
+  }
+	
+	\NEW{Abil}{\aBloodlust}{
+		\s\MYname {Bloodlust}
+		\s\MYtext {When you point at a player, you can inspire bloodlust in them and they will attack the nearest creature aside from you until either the creature is dead or they are dead or knocked out. You can use this ability once per minute.}
+		\s\MYeffect {You have an uncontrollable urge to kill the nearest creature other than me. Attack them until they are dead or you are dead or knocked out.}
+}
+	\NEW{Abil}{\aFirebreath}{
+		\s\MYname {Firebreath}
+		\s\MYtext {You can choose to make your attacks count as flame attacks}
+		\s\MYeffect {You breath fire on your target. This does standard CR damage as a fire attack. You can also use this as a light source.}
+		}
+		
+	\NEW{Abil}{\aNegotiate}{
+		\s\MYname {Influence with Humans}
+		\s\MYtext {If you accompany another army leader down The Windy Corridor and they show you a missive they are dispatching to make peace with the humans, you can use your influence to help or hurt their case. Draw a circle on the back of a missive to make the asylum request more likely to succeed. Draw a triangle on the back of a missive to make the asylum request more likely to fail.}
+		\s\MYeffect {I can influence missives dispatched to humans.}
+		}
+		
+		\NEW{Abil}{\aCommitForces}{
+		\s\MYname {Dispatch Forces or Request Asylum}
+		\s\MYtext {You command a great army. By going to The Windy Corridor, you can choose to either dispatch them to assist the other monster forces arranging to oppose the human army, or sneak around the monster army and request asylum from the humans. All commitments are final unless you know otherwise.}
+		\s\MYeffect {I am writing a missive to my army.}
+		}
+		
+		\NEW{Abil}{\aFakeCommit}{
+		\s\MYname {Astral Illusion}
+		\s\MYtext {You can create an illusion on the astral plane where the Djinni live. To the untrained eye, it will look like the Djinni forces have been dispatched (the monster army is unable to easily survey the Djinni's home on the astral plane). To do this, write a missive to the Djinni army at the end of The Windy Corridor.}
+		\s\MYeffect {I am meditating.}
+		}
+		
+		\NEW{Abil}{\aSleepingDust}{
+		\s\MYname {Deep Slumber}
+		\s\MYtext {You can call upon the forces of the earth to force another character to sleep. Perform a four-second Waylay on another character and exclaim ``Somnus!'' in a clear voice. They may not be engaged in combat at the time. If you convince someone to willingly fall asleep, you may freely use this ability.}
+		\s\MYeffect {You suddenly feel exhausted and are now Knocked Out. You will not remember what caused you to fall asleep.}
+		}
+		
+		\NEW{Abil}{\aReadDreams}{
+		\s\MYname {Read Dreams}
+		\s\MYtext {You are an expert at reading and interpreting the dreams of others. To read someone's dreams, they must be Knocked Out or Wounded. Hold your dreamcatcher over their head for ten seconds then use this ability on them.}
+		\s\MYeffect {You must describe what you are dreaming about (you are most likely dreaming about something you loathe or love, or your hopes and fears regarding one of your goals at this council). If you are a human, you must reveal it to me.}
+		}
+		
+		\NEW{Abil}{\aControlDreams}{
+		\s\MYname {Control Dreams (Humans only)}
+		\s\MYtext {You have spent centuries mastering the magic needed to read and control human dreams. You can manifest yourself within their dreams, and even change their dreamscapes entirely. You are working on controlling monster dreams too, but cannot do so yet. To control someone's dreams, you must first use your Read Dream ability. Then describe what they are now dreaming about instead. They will interpret this as an omen.}
+		\s\MYeffect {You are now experiencing the dream I am describing. If this dream describes past or future events at this council, you believe this is likely the way things did or will happen, unless you have reason to believe otherwise.}
+		}
+		
+		\NEW{Abil}{\aFly}{
+			\s\MYname {Fly}
+			\s\MYtext {This ability allows you to fly}
+			\s\MYeffect {If a mechanic specifically limits access to people who can fly, you have access.}
+			}
+			\NEW{Abil}{\aForge}{
+				\s\MYname {Forge}
+				\s\MYtext {You can reforge broken weapons in the Golem Lab}
+				\s\MYeffect {If you have all four pieces of the Vorpal Sword of Wonder, you may reforge it by getting a level 3 hand in decking in the Golem Lab. If you do so, tell a GM}
+				}
+		
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

@@ -1,0 +1,38 @@
+%%%%%
+%%
+%% This file sets up the Blue datatype and creates Blue macros.  These
+%% are for bluesheets.
+%%
+%%%%%
+
+\DECLARESUBTYPE{Blue}{Element}
+\PRESETS{Blue}{
+  \FD\MYfile	{} %% filename (in \blues directory)
+  \FS\MYtext	{\ifx\MYfile\empty\else%
+		  \getextractenvs{document}{\blues/\MYfile}%
+		\fi}
+  }
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\NEW{Blue}{\bTearOfMagic}{
+  \s\MYname	{The Tear of Magic}
+  \s\MYfile	{tearofmagic.tex}
+  }
+
+\NEW{Blue}{\bLoremasters}{
+  \s\MYname	{Loremasters}
+  \s\MYfile	{loremasters.tex}
+  }
+	
+\NEW{Blue}{\bPower}{
+  \s\MYname	{Power Society}
+  \s\MYfile	{powersociety.tex}
+  }
+	
+	\NEW{Blue}{\bAstyria}{
+  \s\MYname	{The Continent of Astyria}
+  \s\MYfile	{astyria.tex}
+  }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

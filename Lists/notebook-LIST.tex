@@ -1,0 +1,71 @@
+%%%%%
+%%
+%% This file sets up the Notebook and GreenNotebook datatypes and
+%% creates Notebook and GreenNotebook macros.  These are for in-game
+%% and out-of-game notebooks.
+%%
+%%%%%
+
+\DECLARESUBTYPE{Notebook}{TransElement}
+\PRESETS{Notebook}{
+  \FD\MYfile	{} %% filename (in \notebooks dir)
+  \FS\MYtext	{\getextractenvs{document}{\notebooks/\MYfile}}
+  \sd\MYlistmap	{\item\MYname\ (in-game notebook)}
+  }
+
+\DECLARESUBTYPE{GreenNotebook}{Element}
+\PRESETS{GreenNotebook}{
+  \FD\MYfile	{} %% filename (in \notebooks dir)
+  \FS\MYtext	{\getextractenvs{document}{\notebooks/\MYfile}}
+  \sd\MYlistmap	{\item\MYname\ (out-of-game notebook)}
+  }
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\NEW{Notebook}{\nTest}{
+  \s\MYname	{Test Research Notebook}
+  \s\MYfile	{README.tex}
+  }
+
+\NEW{GreenNotebook}{\nGreenTest}{
+  \s\MYname	{Test Out-of-Game Notebook}
+  \s\MYfile	{README-green.tex}
+  }
+
+\NEW{GreenNotebook}{\nStoneGaze}{
+  \s\MYname	{Curing Petrifying Glare}
+  \s\MYfile	{stoneGaze.tex}
+  }
+  
+\NEW{GreenNotebook}{\nDreams}{
+  \s\MYname	{Delving Into Monster Dreams}
+  \s\MYfile	{Dreams.tex}
+  }
+  
+\NEW{GreenNotebook}{\nEzekiel}{
+  \s\MYname	{The Tome of Ezekiel}
+  \s\MYfile	{Ezekiel.tex}
+  }
+  
+\NEW{GreenNotebook}{\nRedDragon}{
+	\s\MYname {Alpha}
+	\s\MYfile {Reddragnotebook.tex}
+	}
+\NEW{GreenNotebook}{\nraisemonster}{
+  \s\MYname	{Raise Monster Ritual}
+  \s\MYfile	{raisemonster.tex}
+  }
+	\NEW{GreenNotebook}{\nriddletastic}{
+	\s\MYname {Riddle Masterpiece}
+	\s\MYfile {riddletastic.tex}
+	}
+	\NEW{GreenNotebook}{\nmazeterpiece}{
+	\s\MYname {Maze Masterpiece}
+	\s\MYfile {mazeterpiece.tex}
+	}
+	\NEW{GreenNotebook}{\nspeaknormal}{
+	\s\MYname {Tongues}
+	\s\MYfile {speaknormal.tex}
+	}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

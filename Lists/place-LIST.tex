@@ -1,0 +1,105 @@
+%%%%%
+%%
+%% This file sets up the Place datatype and creates Place macros.
+%% Places correspond to general units of game that are not characters.
+%% Generally, game elements that do not come in some character's
+%% packet are owned by places.  A Place macro may contain zero or more
+%% of any kind of element (most likely Sign and Item macros).
+%%
+%% The simplest case is a single Place macro, \pWorld{}, which
+%% contains all miscellaneous game elements not owned by a character.
+%% However, Place macros are a good way to sort game area by general
+%% location or similar.  Place may also be used as a base for more
+%% complex and specific subtypes.
+%%
+%% Places do not necessarily correspond to only locations; you could
+%% set up a series of Place macros that each represent a time period
+%% in which certain elements are to be introduced into game.
+%%
+%%%%%
+
+\DECLARESUBTYPE{Place}{Owner}
+\PRESETS{Place}{
+  \FD\MYwhere	{} %% if a Place is a single identifiable location
+  \FD\MYwhen	{} %% if a Place is time-based
+  }
+\POSTSETS{Place}{
+  \edef\mylocation{\MYwhere}
+  \protected@edef\@ownerstring{%
+    \MYname%
+    \ifx\mylocation\empty\else\ (\mylocation)\fi%
+    \ifx\MYwhen\empty\else\ (\MYwhen)\fi%
+    }
+  }
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\NEW{Place}{\pTest}{
+  \s\MYname	{Test Place}
+  \s\MYsigns	{}
+  \s\MYitems	{}
+  }
+\NEW{Place}{\pVotingChamber}{
+  \s\MYname	{Voting Chamber}
+  \s\MYsigns	{\sWindyCorridor{} \sPodium{} \sVotingChamber{}
+	\sBoard{} }
+  \s\MYitems	{}
+  }
+\NEW{Place}{\pDiningRoom}{
+  \s\MYname	{Dining Room}
+  \s\MYsigns	{\sOnyx{} \sDisabledWard{} \sWard{} \sDiningRoom{}}
+  \s\MYitems	{{\multi{15}{\iCandle{}}} {\multi{15}{\iTorch{}}} }
+  }
+\NEW{Place}{\pDungeon}{
+\s\MYname	{Dungeon}
+  \s\MYsigns	{\sDSignA{}\sDSignB{}\sDSignC{}\sDSignD{}\sDSignE{}\sDSignF{}\sDSignG{}\sDSignH{}\sDSignI{}\sDSignJ{}\sDSignK{} \sDSignL{}\sDSignM{} \sDSignN{}\sDSignO{}\sDSignP{}\sDSignQ{}\sDSignR{} \sDSignS{} \sDSignT{}\sDSignU{}\sDSignV{} \sDSignW{} \sDungeonEntrance{}}
+\s\MYgreens {\gDungeonDirections{} \sDungeonEntrance{}}
+  }
+
+	\NEW{Place}{\pLibrary}{
+  \s\MYname	{Library}
+  \s\MYsigns	{\sWard{} \sDisabledWard{}\sLibrary{}\sBookshelf{}}
+  \s\MYitems	{\multi{5}{\iCandle{}}\iNatureIdol{} \iReaperIdol{} \iDominationIdol{} \iGolemNotesE{} \iGolemNotesC{} \iSphinxBook{} \iLichBook{}}
+  }
+\NEW{Place}{\pMinotaurMaze}{
+  \s\MYname	{Minotaur Maze}
+  \s\MYsigns	{}
+  \s\MYitems	{\iGolemNotesE{} \iVorpalSwordofWonder{} }
+  }
+\NEW{Place}{\pGolemLab}{
+  \s\MYname	{GolemLab}
+  \s\MYsigns	{\sWard{} \sDisabledWard{} \sGolemLab{}}
+  \s\MYitems	{\iGolemNotesC{}  {\multi{5}{\iRope{}}} \iGolemNotesA{} }
+  }
+	\NEW{Place}{\pTreasureRoom}{
+  \s\MYname	{Treasure Room}
+  \s\MYsigns	{\sLock{} \sTRoom{}}
+  \s\MYitems	{\iOrbofPower{} \iSwordofIce{} \iVorpalSwordofWonder{} \iGolemControlRod{}}
+  }
+		\NEW{Place}{\pGM}{
+  \s\MYname	{GM}
+  \s\MYsigns	{\sTest{}}
+  \s\MYitems	{\iPhylacterydust{} \iRVorpal{}}
+	\s\MYgreens {\gEndgame{}}
+  \s\MYabils	{\aShapeshifting{} \aShapeshifting{}}
+	}
+		\NEW{Place}{\pTeleporterRoom}{
+  \s\MYname	{Teleporter Room}
+  \s\MYsigns	{\sTelerune{} \sBrokeTelerune{} \sTeleporter{} }
+  \s\MYitems	{}
+  } %signs done
+	
+\NEW{Place}{\pKitchen}{
+	\s\MYname {Kitchen}
+	\s\MYsigns {\sKitchen{} \sCauldron{} \sLarder{}}
+	\s\MYitems { \multi{10}{\iForsythia{}}\multi{10}{\iBilberries{}} \iBaster{} \multi{10}{\iRope{}} }
+	} %signs done
+\NEW{Place}{\pGarden}{
+	\s\MYname {Garden}
+	\s\MYsigns {\sGarden{} \sMeadow{} \sFountain{} }
+	\s\MYitems	{\multi{10}{\iEyebright{}}\multi{10}{\iNightshade{}}\multi{10}{\iBHeart{}}}
+	} %signs done
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

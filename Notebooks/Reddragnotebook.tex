@@ -1,0 +1,81 @@
+%%%%%
+%%
+%% Research Notebooks live in this directory.  This file doubles as a
+%% latex'able example notebook.
+%%
+%% Notebook macros (in ../Lists/notebook-LIST.tex, presumably) each
+%% have a file that lives here.  The argument to \startnotebook{...}
+%% probably should be the macro for the given whitesheet.  However,
+%% you can also just use \name{Some Text} if you want.
+%%
+%% Note that every \startnotebook command needs a matching
+%% \endnotebook command.  Also note that no ownership information
+%% appears on the notebook.
+%%
+%%%%%
+
+\documentclass[notebook]{GuildCamp2}
+\begin{document}
+
+\startnotebook{\nRedDragon{}}
+
+
+
+\begin{page}{Begin}
+
+This notebook is not transferable. You may proceed to page 2 when an in-game mechanic tells you to.
+\end{page}
+
+
+
+\begin{page}{A}
+
+
+Something about that picture looks familiar. You don't know why, but you feel like you've seen this dragon before you met him in the council. You feel an urge to do a bit of research into his history. He often boasts about his "Great tomes of knowledge" in his library. Go to the library and proceed to page \nbref{B}.
+
+\end{page}
+
+
+
+\begin{page}{B}
+
+You walk into the library and are overwhelmed by the amount of books. You need one particular one. This might be difficult
+
+Begin decking. Once you get a level 2 hand, proceed to page \nbref{C}.
+
+\end{page}
+
+
+\begin{page}{C}
+
+You can't decipher this book. However, you did come across a recipie for a ``Comprehend Languages'' potion. Unfortunately, you never learned how to make potions. One of the other delagates must be able to. 
+The formula: 
+
+\begin{enum}
+	\item \iCFungus{}
+	\item \iSeedoftheWorldTree{}
+\end{enum}
+
+Once you drink this potion, turn to page \nbref{D}.
+
+\end{page}
+
+
+\begin{page}{D}
+
+You feel a sudden rush of comprehension. You feel like you can understand anything. Go back to the library and get a level 4 hand in decking. Then go to page \nbref{E}. 
+
+\end{page}
+
+
+\begin{page}{E}
+This journal recounts Onyx's time with your mother. He must be the father who gave you the name you hate so much.
+
+
+\end{page}
+
+
+
+\endnotebook{\nRedDragon{}}
+
+\end{document}

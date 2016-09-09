@@ -1,0 +1,400 @@
+%%%%%
+%%
+%% This file sets up the Sign and Label datatypes and creates Sign and
+%% Label macros.
+%%
+%% Signs generally represent interesting parts of game area, usually
+%% as things posted on walls.  Labels represent other things, often on
+%% or inside envelopes, that are part of complex mechanics.
+%%
+%% The default value for \MYloc will inherit location from the Place
+%% or Sign most immediately up the ownership tree.  Override this by
+%% setting \MYloc to anything (even blank).
+%%
+%% Sign is for full-sized signs that would cover most of a large
+%% manila envelope; SignMedium is for signs sized to half-sized manila
+%% envelopes; SignSmall is for signs sized for small manila envelopes
+%% (the same size as item cards).  Label, LabelMedium, and LabelSmall
+%% are analagous, but they don't have a \takedownby note at the
+%% bottom.  You can always use a sign or label without an envelope or
+%% with a differently-sized envelope.  Choose which based on
+%% visibility and content.
+%%
+%% SignTiny is for signs you want to be hard to find; it is small and
+%% does not have a \takedownby note.  SignDot is for a very small
+%% "dot" which only has a title.
+%%
+%% SignStrip produces a strip of paper (without a \takedownby note)
+%% with labels on the outside that show on both sides if you fold it
+%% in half.  These are a convenient alternative to sub-envelopes. They
+%% can also be used for "s-packets" taped to walls (see
+%% Extras/README-s-packets).
+%%
+%% LabelCover produces a label similar to the cover to a research
+%% notebook.  LabelPage, likewise, produces a page.
+%%
+%% EOG is for full-sized end-of-game signs.
+%%
+%%%%%
+
+\DECLARESUBTYPE{Sign}{Element}
+\PRESETS{Sign}{
+  \FD\MYloc	{\mylocation} %% real-space location
+  \FD\MYtext	{} %% text of sign
+  }
+\POSTSETS{Sign}{
+  \edef\mylocation{\MYloc}
+  \protected@edef\@ownerstring{%
+    \MYname%
+    \ifx\mylocation\empty\else\ (\mylocation)\fi%
+    }
+  }
+\def\mylocation{}
+
+\def\loc 1{\rs\MYloc{ 1}}
+
+\DECLARESUBTYPE{SignMedium}{Sign}
+\DECLARESUBTYPE{SignSmall}{Sign}
+\DECLARESUBTYPE{SignTiny}{Sign}
+\DECLARESUBTYPE{SignDot}{Sign}
+\PRESETS{SignDot}{\s\MYtext{}}
+
+\DECLARESUBTYPE{Label}{Sign}
+\PRESETS{Label}{\s\MYloc{}}
+\DECLARESUBTYPE{LabelMedium}{Label}
+\DECLARESUBTYPE{LabelSmall}{Label}
+
+\DECLARESUBTYPE{SignStrip}{Sign}
+\DECLARESUBTYPE{LabelCover}{Label}
+\DECLARESUBTYPE{LabelPage}{Label}
+
+\DECLARESUBTYPE{EOG}{Sign}
+\PRESETS{EOG}{%
+  \s\MYname	{End Of Game}
+  \s\MYtext	{{\bf\Huge You may not pass through here.}}
+  }
+
+
+%%%%%
+%% \signbig[<location>]{<name>}{<text>}
+%% \eog[<location>]
+%%
+%% \signmdeium[<location>]{<name>}{<text>}
+%% \signsmall[<location>]{<name>}{<text>}
+%% \signtiny[<location>]{<name>}{<text>}
+%% \signdot[<location>]{<name>}
+%%
+%% \labelbig{<name>}{<text>}
+%% \labelmedium{<name>}{<text>}
+%% \labelsmall{<name>}{<text>}
+%%
+%% \signstrip[<location>]{<name>}{<text>}
+%% \labelcover{<name>}{<text>}
+%% \labelpage{<name>}{<text>}
+\newinstance{Sign}{\signbig[3][\mylocation]}{
+  \s\MYloc{ 1}\s\MYname{ 2}\s\MYtext{ 3}}
+\newinstance{EOG}{\eog[1][\mylocation]}{\s\MYloc{ 1}}
+
+\newinstance{SignMedium}{\signmedium[3][\mylocation]}{
+  \s\MYloc{ 1}\s\MYname{ 2}\s\MYtext{ 3}}
+\newinstance{SignSmall}{\signsmall[3][\mylocation]}{
+  \s\MYloc{ 1}\s\MYname{ 2}\s\MYtext{ 3}}
+\newinstance{SignTiny}{\signtiny[3][\mylocation]}{
+  \s\MYloc{ 1}\s\MYname{ 2}\s\MYtext{ 3}}
+\newinstance{SignDot}{\signdot[2][\mylocation]}{
+  \s\MYloc{ 1}\s\MYname{ 2}}
+
+\newinstance{Label}{\labelbig[2]}{
+  \s\MYname{ 1}\s\MYtext{ 2}}
+\newinstance{LabelMedium}{\labelmedium[2]}{
+  \s\MYname{ 1}\s\MYtext{ 2}}
+\newinstance{LabelSmall}{\labelsmall[2]}{
+  \s\MYname{ 1}\s\MYtext{ 2}}
+
+\newinstance{SignStrip}{\signstrip[3][\mylocation]}{
+  \s\MYloc{ 1}\s\MYname{ 2}\s\MYtext{ 3}}
+\newinstance{LabelCover}{\labelcover[2]}{
+  \s\MYname{ 1}\s\MYtext{ 2}}
+\newinstance{LabelPage}{\labelpage[2]}{
+  \s\MYname{ 1}\s\MYtext{ 2}}
+
+
+%%%%%
+%% \sEOG{}
+%% use \sEOg[\loc{<location>}]{} for EOG sign at a specific place
+\NEW{EOG}{\sEOG}{
+  }
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\NEW{Sign}{\sTest}{
+  \s\MYname	{A Room}
+  \s\MYloc	{10-250}
+  \s\MYtext	{A lecture hall with large, sliding blackboards.}
+  }
+\NEW{Sign}{\sOnyx}{
+	\s\MYname {A Portrait}
+	\s\MYtext {A portrait of the Onyx dragon, in his younger days.
+	Sign 978}
+}
+\NEW{Sign}{\sWard}{
+	\s\MYname {A Ward}
+	\s\MYtext {This ward glows with protective energy}
+}
+\NEW{Sign}{\sDisabledWard}{
+	\s\MYname {Disabled Ward}
+	\s\MYtext {This ward no longer glows, stripped of all protective abilities}
+}
+\NEW{Sign}{\sTelerune}{
+	\s\MYname {Teleportation Rune}
+	\s\MYtext {This is the teleportation rune you arrived on. It glows with arcane energy.}
+	}
+\NEW{Sign}{\sBrokeTelerune}{
+	\s\MYname {Broken Teleportation Rune}
+	\s\MYtext {This is the teleportation rune you arrived on. It is quite clearly broken.}
+	}
+\NEW{Sign}{\sWindyCorridor}{
+  \s\MYname	{A Windy Corridor}
+  \s\MYtext	{This corridor leads outside where messengers are waiting for each army. You can use this corridor to dispatch missives to your army, leading them to war or to seek peace with the humans.}
+  \s\MYitems	{\multi{20}{\iMissive{}}}
+  }
+\NEW{Sign}{\sDSignA}{
+	\s\MYname {Sign 1}
+	\s\MYtext {You arrive at the bottom of the steps and see a 30x30 square foot area, dimly lit by torches, ahead of you. The walls are made of solid stone, and after some exploring you find three paths.
+
+
+If you take the left path, go to sign 2
+
+
+
+If you take the middle path, go to sign 8
+
+
+
+If you take the right path, go to sign 14
+
+
+
+Or, you may go back up the stairs and exit the dungeon}
+	\s\MYitems {\multi{5}{\iTorch{}}}
+}
+	
+\NEW{Sign}{\sDSignB}{
+	\s\MYname {Sign 2}
+	\s\MYtext {After a brief journey down the path, you come to a wide, rushing, river. If you have the ability “fly” or have a rope, you can pass over the river. If you use the rope, tear up the card and write “Bridged” on this sign. If you wish to destroy the bridge, spend 5 mins touching this sign and cross out the word “Bridged” If you pass over, go to sign 3
+	
+Alternatively, if you would like to explore the river, turn to sign 19}
+	\s\MYitems {}
+	}
+	
+\NEW{Sign}{\sDSignC}{
+	\s\MYname {Sign 3}
+	\s\MYtext {After passing the river, you come to a large cavern. It is pitching black. If you do not have an item or ability that provides light, you cannot pass. If you can pass, turn to sign 4 
+
+You may go back to sign 2}
+	\s\MYitems {}
+	}
+	\NEW{Sign}{\sDSignD}{
+	\s\MYname {Sign 4}
+	\s\MYtext {You come to a room filled with enormous stalagmites and stalactites. If there are three or more people in the group everyone must resist a wound 10 attack if you wish to run thought the side passage and not venture deeper proceed to sign  6. If you wish to venture deeper then everyone with CR greater than 5 takes 5 CR damage for 30 minutes or until exiting the dungeon, from the pointy stalactites turn to sign 5}
+	\s\MYitems {}
+	}
+	\NEW{Sign}{\sDSignE}{
+	\s\MYname {Sign 5}
+	\s\MYtext {You come to a grand doorway. Power seems to emanate from behind it. There is a ward on the wall. You cannot pass unless the ward is broken, or if you know otherwise. If you can pass proceed to sign 7. You may also retreat back to sign  3}
+	\s\MYitems {}
+	\s\MYsigns {\sWard{} \sDisabledWard{}}
+	}
+	\NEW{Sign}{\sDSignF}{
+	\s\MYname {Sign 6}
+	\s\MYtext {Your noise and movements have awoken a foul Krogoth! Huge jets of flame fly from its granite carapace as its hideous eyes turn to look at you. If your group’s CR is more than 45, take an item from the pouch and turn to sign 5. Otherwise, flee to sign 20}
+	\s\MYitems {\iPhylactery{}}
+	}
+	\NEW{Sign}{\sDSignG}{
+	\s\MYname {Sign 7}
+	\s\MYtext {The Ritual chamber
+
+This chamber, cut from the heartstone of the mountain itself, is awash in raw power. A raised dais holds a pedestal, with an indentation that perfectly fits one of the idols. Incense holders burn along all sides of the chamber. You may go back to sign 5}
+	\s\MYitems {}
+	}
+	\NEW{Sign}{\sDSignH}{
+	\s\MYname {Sign 8}
+	\s\MYtext {After a journey down a twisting corridor, you arrive at a bridge, guarded by the Gatekeeper, an ancient troll. If one of your party is not a troll, you must each pay the troll's toll of one item each, place an item in the pouch attached to this sign. If the group chooses to fight the troll you must beat cr 20 if you fail you are all knocked out and sent to the entrance of the dungeon. If you do pick you may each take an item from the troll’s pouch - the packet attached to the sign. If a troll is a member of your party, the Gatekeeper lets you pass for, you may still attack the gate keeper if you wish. If you pass, turn to Sign 9. You may dive into the water if you like, if you do, turn to sign 19.
+
+You may exit to sign 1}
+	\s\MYitems {}
+	}
+	\NEW{Sign}{\sDSignI}{
+	\s\MYname {Sign 9}
+	\s\MYtext {After passing over the bridge, you find a cave filled with large crystals. You may explore this cave, or journey through it to Sign 10. If you explore this cave, turn to sign 21.
+
+You may exit to sign 8}
+	\s\MYitems {}
+	}
+	\NEW{Sign}{\sDSignJ}{
+	\s\MYname {Sign 10}
+	\s\MYtext {You find yourself in a large mushroom forest. Fungi grow all over the walls and ceiling of this room. If you want, you may take an item from this pouch. If you do, turn to sign 11. Otherwise, turn to sign 12
+
+You may exit to sign 9}
+	\s\MYitems {{\multi{20}{\iCFungus{}}} }
+	}
+	\NEW{Sign}{\sDSignK}{
+	\s\MYname {Sign 11}
+	\s\MYtext {The walls seem to come alive! If you have a fire attack or 3 sources of light, you may drive back the animated fungi and proceed to sign 12. Otherwise, flee to sign 15.}
+	\s\MYitems {}
+	}
+	\NEW{Sign}{\sDSignL}{
+	\s\MYname {Sign 12}
+	\s\MYtext {You come to a great door. If your group’s CR is 25 or more, you force open the door and proceed to sign 13. If not, you must exit to sign 10.}
+	\s\MYitems {}
+	}
+	\NEW{Sign}{\sDSignM}{
+	\s\MYname {Sign 13}
+	\s\MYtext {You find a small rock hewn room with what appears to be a piece of a broken sword. You may pick it up, take the item from the attached packet if you do.
+
+Exit to sign 10}
+	\s\MYitems {\iVorpalSwordofWonder{}}
+	}
+	\NEW{Sign}{\sDSignN}{
+	\s\MYname {Sign 14}
+	\s\MYtext {On the other side of the doorway, you find a fountain. You may drink from the fountain and turn to sign 23 or proceed to sign 15. You may exit to sign 10}
+	\s\MYitems {}
+	}
+	\NEW{Sign}{\sDSignO}{
+	\s\MYname {Sign 15}
+	\s\MYtext {You come across the lair of a massive spider! If your group CR is greater than 25 or 5 or less, turn to Sign 16. Otherwise, flee back to sign and you are now poisoned you must spend 5 minutes pretending to be violently ill. Exit to Sign 14.}
+	\s\MYitems {}
+	}
+	\NEW{Sign}{\sDSignP}{
+	\s\MYname {Sign 16}
+	\s\MYtext {You find a massive underground lake being fed by a mighty river. You may either proceed to sign 4 or sign 17. 
+
+You may exit to sign 14.}
+	\s\MYitems {}
+	}
+	\NEW{Sign}{\sDSignQ}{
+	\s\MYname {Sign 17}
+	\s\MYtext {After some journeying, you enter an armory. There is wands, weapons, and some daggers here.  Two in particular stand out. One Is the Ritual Wand, whereas the other is marked with the symbol of the God of War. You may take an item from the pouch, or take the ornamental knife. You may only take the knife with the symbol if you know that you can. Proceed to sign 18 or exit to sign 16}
+	\s\MYitems {\iRitualWand{} \iDagger{} \iStorch{}}
+	}
+	\NEW{Sign}{\sDSignR}{
+	\s\MYname {Sign 18}
+	\s\MYtext {You enter a large chamber filled with treasure, including a holy book that seems to draw your eye. You may only take the book if you know you can, otherwise it seems to burn when you touch it. If you can touch the book, take an item from the pouch.
+
+You may exit to sign 17}
+	\s\MYitems {\iHolyBook{}}
+	}
+	\NEW{Sign}{\sDSignS}{
+	\s\MYname {Sign 19}
+	\s\MYtext {You dive into the waters. If your group CR is more than 15, take an item from the pouch from what you find on the river bed, and turn to sign 22. If it is less, take 5 CR damage for 30 mins or until you exit the dungeon as you are battered by the rapid waters and turn to sign 16.}
+	\s\MYitems {\iLovePotion{} {\multi{5}{\iGingko{}}}}
+	}
+	\NEW{Sign}{\sDSignT}{
+	\s\MYname {Sign 20}
+	\s\MYtext {In the midst of fleeing from the monster, you find yourself atop a large waterfall. Your only option is to jump off! Turn to sign 19}
+	\s\MYitems {}
+	}
+	\NEW{Sign}{\sDSignU}{
+	\s\MYname {Sign 21}
+	\s\MYtext {The crystals in their shimmering light seem to move menacingly. At a second glance, they are moving menacingly! You are fighting a crystal golem! If your party’s CR is over 20, turn to sign 12. Otherwise, you must flee to sign 20 and you have gotten crystal shard stuck in you your CR is lowered by 5 for 30 minutes and you must pretend to have wounded arm or leg.}
+	\s\MYitems {}
+	}
+	\NEW{Sign}{\sDSignV}{
+	\s\MYname {Sign 22}
+	\s\MYtext {After braving the river, you reach the other side. You find two paths, one leading north and one leading south. There is a fish that leaps from the river and says cryptically:
+	"`The Darkness Stirs"'
+	It plops back in the water and make no splash. If you take the south path, turn to sign 16. If you take the north path, turn to sign 4.}
+	\s\MYitems {}
+	}
+	\NEW{Sign}{\sDSignW}{
+	\s\MYname {Sign 23}
+	\s\MYtext {After drinking the water, you feel reinvigorated. Gain5 CR for the next 30 mins. However, the doorway beyond seems to be locked. You may only drink from the fountain once per game. You may exit to sign 1}
+	\s\MYitems {}
+	}
+	
+	\NEW{Sign}{\sCauldron}{
+		\s\MYname {Cauldron}
+		\s\MYtext {This is a massive Cauldron, used to brew potions and tea}
+		}
+	\NEW{Sign}{\sLock}{
+		\s\MYname {Door to Treasure Room}
+		\s\MYtext {This is a solid stone door with a keyhole. You may only pass if you have an item that tells you that you may do so.
+		If you do not have any such item, you may enter this room if you get a level 4 hand in decking. If anyone asks you what you are doing, you must tell them that you are trying to pick the lock to the room.}
+		}
+		
+\NEW{Sign}{\sGarden}{
+	\s\MYname {Garden}
+	\s\MYtext { This is the Garden. It is a verdant area in contrast to the drab stone construction of the rest of the castle. Birds are chirping, plants are growing, and a decorative fountain sits in the middle.}
+	}
+	\NEW{Sign}{\sFountain}{
+		\s\MYname {Decorative Fountain}
+		\s\MYtext {This is a decorative marble fountain of a fierce dragon. Water flows from its mouth}
+		}
+\NEW{Sign}{\sMeadow}{
+	\s\MYname {Meadow}
+	\s\MYtext {There are many different plants growing in this meadow. If you spend one minute touching this sign, you may take an item from the pouch.}
+	}
+	
+\NEW{Sign}{\sKitchen}{
+	\s\MYname {Kitchen}
+	\s\MYtext {This is the kitchen for the castle. In one corner there is a large cauldron. In another there is a larder}
+	}
+	
+\NEW{Sign}{\sLarder}{
+	\s\MYname {Larder}
+	\s\MYtext {This is the larder for the kitchen. In addition to massive amounts of food, it contains some herbs and other supplies. If you spend 1 minute touching this sign, you may take an item from the pouch.}
+	}
+	
+\NEW{Sign}{\sLibrary}{
+	\s\MYname {Library}
+	\s\MYtext {This is the castle's library. Rows of books line the walls, with candles providing illumination.}
+	}
+\NEW{Sign}{\sBookshelf}{
+	\s\MYname {Bookshelf}
+	\s\MYtext {One of the numerous bookshelves that line the library. If you have a mechanic that deals with research in the library, do that here.}
+	}
+	
+\NEW{Sign}{\sIdolShelf}{
+	\s\MYname {Shelf}
+	\s\MYtext {This shelf has three curious idols on it. They almost glow with magical power. Spend one minute touching this sign to take one of the idols from the shelf}
+	}
+	
+\NEW{Sign}{\sTRoom}{
+	\s\MYname {Onyx's Treasure Room}
+	\s\MYtext {This is the treasure room of the Onyx Dragon. Massive piles of gold overflow onto the floor, studded with all kinds of precious gems. There is a shelf with magical artifacts upon it. IF you spend one minute touching this sign, you may take an item from the pouch.}
+	}
+	
+\NEW{Sign}{\sTeleporter}{
+	\s\MYname {Teleport Room}
+	\s\MYtext {This is the teleporter room that you arrived in at the beginning of the meeting. You can exit here if it is atleast 30 minutes to game end, as long as the Teleporter Rune is functioning. Touch this sign for 2 minutes uninterrupted to leave the game.}
+	}
+	
+\NEW{Sign}{\sGolemLab}{
+	\s\MYname {Golem Lab}
+	\s\MYtext {This is the golem lab. There are gears, stone, and metals in various piles around the room.}
+	}
+	
+\NEW{Sign}{\sDiningRoom}{
+	\s\MYname {Dining Room}
+	\s\MYtext {This is a massive banquet hall. Rows of candles light the tables, and torches line the walls.}
+	}
+	
+\NEW{Sign}{\sVotingChamber}{
+	\s\MYname {Voting Chamber}
+	\s\MYtext {This is a chamber used for holding meetings. There are rows of desks, and a podium at the head of the chamber. There is a magical board, denoting the troop movements of the armies of the representatives.}
+	}
+	
+\NEW{Sign}{\sPodium}{
+	\s\MYname {Podium}
+	\s\MYtext {This is a podium in the Voting Chamber.}
+	}
+\NEW{Sign}{\sBoard}{
+	\s\MYname {Army Board}
+	\s\MYtext {This is a magical board that lists every army that has deployed. If a delegate votes to send their army, the army will be added to the board.}
+	}
+\NEW{Sign}{\sDungeonEntrance}{
+	\s\MYname {Dungeon}
+	\s\MYtext {This is the Dungeon. It is dark and dank. You must read the greensheet before entering.}
+	}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

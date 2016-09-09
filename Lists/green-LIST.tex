@@ -1,0 +1,109 @@
+%%%%%
+%%
+%% This file sets up the Green datatype and creates Green macros.
+%% These are for greensheets.
+%%
+%%%%%
+
+\DECLARESUBTYPE{Green}{Element}
+\PRESETS{Green}{
+  \FD\MYfile	{} %% filename (in \greens dir)
+  \FS\MYtext	{\ifx\MYfile\empty\else%
+		  \getextractenvs{document}{\greens/\MYfile}%
+		\fi}
+  }
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\NEW{Green}{\gTest}{
+  \s\MYname	{Test Greensheet}
+  \s\MYfile	{README.tex}
+  }
+\NEW{Green}{\gDungeonDirections}{
+	\s\MYname {Dungeon Directions}
+	\s\MYfile {DungeonMech.tex}
+	}
+\NEW{Green}{\gEnslaveRitual}{
+  \s\MYname	{The Dread Ritual of Mind Shackling}
+  \s\MYfile	{enslaveritual.tex}
+  }
+\NEW{Green}{\gKillRitual}{
+  \s\MYname	{The Deadly Ritual of Bloody Demise}
+  \s\MYfile	{killritual.tex}
+  }
+\NEW{Green}{\gTreeRitual}{
+  \s\MYname	{The Pure Ritual of Natural Metamorphosis}
+  \s\MYfile	{treeritual.tex}
+  }
+\NEW{Green}{\gnewmemberpower}{
+  \s\MYname	{Power Society Member}
+  \s\MYfile	{memberpower.tex}
+  }
+	\NEW{Green}{\gnewmemberlore}{
+  \s\MYname	{Loremasters Guild Member}
+  \s\MYfile	{memberlore.tex}
+  }
+\NEW{Green}{\gOnyxRep}{
+	\s\MYname {Repairing Wards and Runes}
+	\s\MYfile {onyxwardrepair.tex}
+	}
+\NEW{Green}{\gClericBreak}{
+	\s\MYname {Breaking Wards and Runes}
+	\s\MYfile {clericwardbreaking.tex}
+	}
+\NEW{Green}{\gGoWrit}{
+	\s\MYname {Summoning Groznak, the God of War}
+	\s\MYfile {gowrit.tex}
+	}
+	\NEW{Green}{\gRaiseDead}{
+	\s\MYname {Raise Dead Ritual}
+	\s\MYfile {raisedead.tex}
+	}
+	
+\NEW{Green}{\gBaptism}{
+	\s\MYname {Inducting Followers}
+	\s\MYfile {Baptism.tex}
+	}
+	
+\NEW{Green}{\gGolem}{
+	\s\MYname {How to Build a Golem}
+	\s\MYfile {golem.tex}
+	}
+\NEW{Green}{\gTheft}{
+	\s\MYname {How to Steal}
+	\s\MYfile {theft.tex}
+	}
+\NEW{Green}{\gBattleReference}{
+	\s\MYname {The Battle (GM Reference)}
+	\s\MYfile {battleGMReference.tex}
+	}
+\NEW{Green}{\gBattle}{
+	\s\MYname {The Battle}
+	\s\MYfile {battle.tex}
+	}
+\NEW{Green}{\gPolymorph}{
+	\s\MYname {Polymorph Potion}
+	\s\MYfile {polymorph.tex}
+	}
+\NEW{Green}{\gDecking}{
+	\s\MYname {Decking Instructions}
+	\s\MYfile {decking.tex}
+	}
+
+	\NEW{Green}{\gsphinxriddles}{
+  \s\MYname	{Riddles of the Sphinx}
+  \s\MYfile	{sphinxriddles.tex}
+  }
+
+\NEW{Green}{\gEndgame}{
+	\s\MYname {End Game scenarios}
+	\s\MYfile {endgame.tex}
+	}
+
+\NEW{Green}{\gGMInstructions}{
+	\s\MYname {GM instructions}
+	\s\MYfile {GMInstructions.tex}
+	}
+
+

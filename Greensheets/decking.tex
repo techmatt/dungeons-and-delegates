@@ -1,0 +1,42 @@
+
+\documentclass[green]{Guild Camp 2}
+\begin{document}
+
+\name{\gDecking{}}
+
+
+If a ritual or abillity requires you to ''deck a hand of strength N'', what you will do is use a deck of cards to
+perform the following algorithm.
+
+Note: any task in this game that requires decking can only be attempted by one person at a time.
+
+\begin{enum}[Algorithm]
+  \item If you are starting from a full deck, shuffle your cards six times.
+  \item Deal out six cards.
+  \item Choose up to two cards to keep and discard the rest.
+  \item Deal your hand up to six.
+  \item Discard all cards in your hand and return to step 2.  If there are fewer than 6 cards left in your deck, return to step 1 instead.
+\end{enum}
+
+During steps 2 or 4, check your hand and see if you have a hand of {\bf strength N or greater}, where hand strength is declared below. To over-emphasize dramatically, if a ritual calls for a hand of strength N, a hand of strength over N still works. 
+
+If you have the hand you need, you may end the algorithm and declare success.
+
+Should you run out of cards without finding the hand you need, check the ritual to see if this counts as failing or if you may begin again. 
+  
+\subsection*{Difficulty levels}
+
+\begin{tabular}{|r|l|}
+  \hline 
+  Level & Hand \\
+  \hline
+  1 & Pair \\
+  2 & Two pair  \\
+  3 & Three of a kind\\
+  4 & Flush (of five cards) \\
+  5 & Straight (of five cards)\\
+  6 & Full house\\
+  \hline
+\end{tabular}
+
+\end{document}
