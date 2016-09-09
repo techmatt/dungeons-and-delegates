@@ -1,1 +1,0 @@
-\edef\gamepath{"C:/Users/Acata/Desktop/Larps/dungeons-and-delegates"}
