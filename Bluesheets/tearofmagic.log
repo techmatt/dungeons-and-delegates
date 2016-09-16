@@ -1,10 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.23)  15 SEP 2016 20:55
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.23)  15 SEP 2016 21:06
 entering extended mode
-**C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Production/listblue-PRINT
-.tex
+**C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Bluesheets/tearofmagic.te
+x
 
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Production/listblue-PRINT.
-tex
+(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Bluesheets/tearofmagic.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -42,7 +41,7 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 ))) 
-  Options: --> listblue --> blue --> sheet 
+  Options: --> blue --> sheet 
   Packages: verbatim multicol comma multido alltt ulem
   Graphics Packages: pstricks graphicx lscape
   Symbol Packages: latexsym amssymb textcomp
@@ -421,32 +420,31 @@ Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\setspace\setspace.sty"
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listblue-PRINT.
-aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 3.
-LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 3.
+No file tearofmagic.aux.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 2.
+LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 2.
 
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omspzccm.fd"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omspzccm.fd"
 File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
 )
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 3.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 2.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 2.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    ... okay on input line 2.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -462,46 +460,44 @@ LaTeX Font Info:    ... okay on input line 3.
 \makeMPintoPDFobject=\count133
 \everyMPtoPDFconversion=\toks33
 )
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Bluesheets/tearofmagic.tex
-)
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 5.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 9.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 5.
-LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 5.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 9.
+LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 9.
 
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1ptmcm.fd"
 File: ot1ptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ptmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 5.
+LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 9.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omlptmcm.fd"
 File: omlptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+psycm on input line 5.
+LaTeX Font Info:    Try loading font information for OMX+psycm on input line 9.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omxpsycm.fd"
 File: omxpsycm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/psycm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 9.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
-LaTeX Font Info:    Try loading font information for U+lasy on input line 5.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 9.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 9.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ulasy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 5.
+LaTeX Font Info:    Try loading font information for U+msa on input line 9.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 5.
+LaTeX Font Info:    Try loading font information for U+msb on input line 9.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -514,53 +510,24 @@ Non-PDF special ignored!{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 Non-PDF special ignored!
 Non-PDF special ignored!
-Non-PDF special ignored!] [2
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listblue-PRINT.
-aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Bluesheets/loremasters.tex
-) [1
-
-] [2
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listblue-PRINT.
-aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Bluesheets/powersociety.te
-x)
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
- [1
-
-] [2
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listblue-PRINT.
-aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Bluesheets/astyria.tex)
-[1
-
-] [2]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listblue-PRINT.
-aux)
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listblue-PRINT.
-aux) ) 
+Non-PDF special ignored!]
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Bluesheets\tearofmagic.aux
+) ) 
 Here is how much of TeX's memory you used:
- 9575 strings out of 493921
- 112667 string characters out of 3144876
- 236280 words of memory out of 3000000
- 12691 multiletter control sequences out of 15000+200000
- 20818 words of font info for 51 fonts, out of 3000000 for 9000
+ 9363 strings out of 493921
+ 109435 string characters out of 3144876
+ 225883 words of memory out of 3000000
+ 12502 multiletter control sequences out of 15000+200000
+ 19804 words of font info for 49 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 46i,12n,53p,5076b,1168s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Pr
-ogram Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files
- (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKT
-eX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on listblue-PRINT.pdf (8 pages, 57061 bytes).
+ 45i,12n,53p,819b,467s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progr
+am Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 
+2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on tearofmagic.pdf (1 page, 34686 bytes).
 PDF statistics:
- 42 PDF objects out of 1000 (max. 8388607)
+ 19 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
