@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.23)  8 SEP 2016 19:46
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.23)  15 SEP 2016 21:42
 entering extended mode
 **C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Production/listgreen-PRIN
 T.tex
@@ -461,18 +461,16 @@ LaTeX Font Info:    ... okay on input line 3.
 \MPnumerator=\count132
 \makeMPintoPDFobject=\count133
 \everyMPtoPDFconversion=\toks33
-) (C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/demon.tex)
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-.aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/battle.tex)
+) (C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/README.tex)
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
+
+  TODO: This is a test greensheet.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 5.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 5.
 LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 5.
-
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1ptmcm.fd"
 File: ot1ptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ptmcm.
@@ -516,59 +514,13 @@ Non-PDF special ignored!{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 Non-PDF special ignored!
 Non-PDF special ignored!
-Non-PDF special ignored!
-
-] [2
+Non-PDF special ignored!] [2
 
 ]
 (C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
 .aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/golem.tex)
-[1
-
-] [2
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-.aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/decking.tex)
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
-
-[1
-
-] [2
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-.aux) (C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/ent.tex)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/battle.tex)
-[1
-
-] [2
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-.aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/decking.tex)
-[1
-
-] [2
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-.aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/treeritual.tex
-) [1
-
-] [2
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-.aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/cleric.tex)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/clericwardbrea
-king.tex)
+(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/DungeonMech.te
+x)
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
  [1
@@ -580,8 +532,51 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 .aux)
 (C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
 1.aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/gowrit.tex)
-[1
+(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/enslaveritual.
+tex) [1
+
+] [2
+
+]
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
+1.aux)
+(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/killritual.tex
+) [1
+
+] [2
+
+]
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
+1.aux)
+(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/treeritual.tex
+) [1
+
+] [2
+
+]
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
+1.aux)
+(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/memberpower.te
+x)
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+ [1
+
+] [2
+
+]
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
+1.aux)
+(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/memberlore.tex
+) [1
+
+] [2
+
+]
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
+1.aux)
+(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/onyxwardrepair
+.tex) [1
 
 ] [2
 
@@ -590,22 +585,36 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 1.aux)
 (C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
 2.aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/battle.tex)
-[1
+(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/clericwardbrea
+king.tex) [1
 
 ] [2
 
 ]
 (C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
 2.aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/decking.tex)
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
+3.aux)
+(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/gowrit.tex)
 [1
 
 ] [2
 
 ]
 (C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-2.aux)
+3.aux)
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
+4.aux)
+(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/raisedead.tex)
+[1
+
+] [2
+
+]
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
+4.aux)
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
+5.aux)
 (C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/Baptism.tex)
 [1
 
@@ -613,155 +622,9 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 
 ]
 (C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-2.aux)
+5.aux)
 (C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-3.aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/vampire.tex)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/battle.tex)
-[1
-
-] [2
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-3.aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/enslaveritual.
-tex) [1
-
-] [2
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-3.aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/decking.tex)
-[1
-
-] [2
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-3.aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/memberlore.tex
-) [1
-
-] [2
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-3.aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/ezekiel.tex)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/lich.tex)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/battle.tex)
-[1
-
-] [2
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-3.aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/decking.tex)
-[1
-
-] [2
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-3.aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/killritual.tex
-) [1
-
-] [2
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-3.aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/golem.tex)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/treeFae.tex)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/battle.tex)
-[1
-
-] [2
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-3.aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/decking.tex)
-[1
-
-] [2
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-3.aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/treeritual.tex
-) [1
-
-] [2
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-3.aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/troll.tex)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/battle.tex)
-[1
-
-] [2
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-3.aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/decking.tex)
-[1
-
-] [2
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-3.aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/treeritual.tex
-) [1
-
-] [2
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-3.aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/babyFae.tex)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/battle.tex)
-[1
-
-] [2
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-3.aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/decking.tex)
-[1
-
-] [2
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-3.aux) (C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/onyx.tex
-)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/onyxwardrepair
-.tex) [1
-
-] [2
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-3.aux)
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-4.aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/battle.tex)
-[1
-
-] [2
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-4.aux)
+6.aux)
 (C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/golem.tex)
 [1
 
@@ -769,193 +632,7 @@ tex) [1
 
 ]
 (C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-4.aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/decking.tex)
-[1
-
-] [2
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-4.aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/minotaur.tex)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/battle.tex)
-[1
-
-] [2
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-4.aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/decking.tex)
-[1
-
-] [2
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-4.aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/memberpower.te
-x)
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
- [1
-
-] [2
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-4.aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/enslaveritual.
-tex) [1
-
-] [2
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-4.aux) (C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/red.tex)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/battle.tex)
-[1
-
-] [2
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-4.aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/decking.tex)
-[1
-
-] [2
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-4.aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/memberpower.te
-x)
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
- [1
-
-] [2
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-4.aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/killritual.tex
-) [1
-
-] [2
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-4.aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/basilisk.tex)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/battle.tex)
-[1
-
-] [2
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-4.aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/golem.tex)
-[1
-
-] [2
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-4.aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/decking.tex)
-[1
-
-] [2
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-4.aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/enslaveritual.
-tex) [1
-
-] [2
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-4.aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/sphinx.tex)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/battle.tex)
-[1
-
-] [2
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-4.aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/decking.tex)
-[1
-
-] [2
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-4.aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/sphinxriddles.
-tex) [1
-
-] [2]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-4.aux)
-No file listgreen-PRINT5.aux.
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/wizard.tex)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/battle.tex)
-[1
-
-] [2
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-5.aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/golem.tex)
-[1
-
-] [2
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-5.aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/decking.tex)
-[1
-
-] [2
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-5.aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/goblin.tex)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/battle.tex)
-[1
-
-] [2
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-5.aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/golem.tex)
-[1
-
-] [2
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-5.aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/decking.tex)
-[1
-
-] [2
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-5.aux)
+6.aux)
 (C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/theft.tex)
 [1
 
@@ -963,52 +640,81 @@ No file listgreen-PRINT5.aux.
 
 ]
 (C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-5.aux)
-No file listgreen-PRINT6.aux.
-
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/memberlore.tex
-) [1
+6.aux)
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
+7.aux)
+(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/battleGMRefere
+nce.tex)
+Missing character: There is no ’ in font ptmr7t!
+ [1
 
 ] [2
 
 ]
 (C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-6.aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/DungeonMech.te
-x) [1
+7.aux)
+(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/battle.tex)
+[1
 
 ] [2
 
 ]
 (C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-6.aux)
-No file listgreen-PRINT7.aux.
+7.aux)
+(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/polymorph.tex)
+[1
+
+] [2
+
+]
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
+7.aux)
+(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/decking.tex)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
+
+[1
+
+] [2
+
+]
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
+7.aux)
+(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/sphinxriddles.
+tex) [1
+
+] [2]
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
+7.aux)
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
+8.aux)
 (C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/endgame.tex)
 [1
 
 ] [2]
 (C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-7.aux)
-No file listgreen-PRINT8.aux.
+8.aux)
+No file listgreen-PRINT9.aux.
+! \getextracts: ""C:/Users/Acata/Desktop/Larps/dungeons-and-delegates"/Greenshe
+ets/GMInstructions.tex" not found.
 
 (C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-8.aux) ) 
+9.aux) ) 
 Here is how much of TeX's memory you used:
- 10352 strings out of 493921
- 137705 string characters out of 3144876
- 246350 words of memory out of 3000000
- 13181 multiletter control sequences out of 15000+200000
- 26180 words of font info for 58 fonts, out of 3000000 for 9000
+ 9711 strings out of 493921
+ 119819 string characters out of 3144876
+ 235820 words of memory out of 3000000
+ 12719 multiletter control sequences out of 15000+200000
+ 25084 words of font info for 57 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 47i,12n,53p,5709b,1595s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 46i,12n,53p,5709b,1201s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/
 Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files (x86)/M
-iKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
-onts/type1/urw/times/utmri8a.pfb>
-Output written on listgreen-PRINT.pdf (110 pages, 205680 bytes).
+es (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/Mi
+KTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on listgreen-PRINT.pdf (40 pages, 99349 bytes).
 PDF statistics:
- 373 PDF objects out of 1000 (max. 8388607)
+ 145 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
