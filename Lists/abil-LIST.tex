@@ -40,13 +40,13 @@
 
 \NEW{Abil}{\aRegeneration}{
   \s\MYname	{Regeneration}
-  \s\MYtext	{You can only be killed if you are wounded or killing blowed using fire. If you are wounded with no use of a fire weapon, you enter the ``Knocked Out'' state and regenerate health for 5 minutes.}
+  \s\MYtext	{You can only be killed if you are wounded or killing blowed using fire. If you are wounded with no use of a fire weapon, you enter the ``Knocked Out'' state and regenerate health for 5 minutes, after which you wake up as normal. If anyone uses a wound or  killing blow on you that does not involve fire, it appears to the other character that they have succeeded (play dead), but you are in fact only knocked out.}
   \s\MYeffect	{The wounds seem to be closing up!}
   }
 	
 \NEW{Abil}{\aShapeshifting}{
   \s\MYname	{Tear of Magic}
-  \s\MYtext	{You have a +10 defensive CR}
+  \s\MYtext	{You have a +10 defensive CR as long as you possess a \iTearofMagic{}. If you lose the item, this ability does not process, but if you acquire a new Tear, you may once again use this ability.}
   \s\MYeffect	{This person's form shifts into a small animal, he/she ignores your attack}
   }
 	
@@ -58,20 +58,26 @@
 	
 \NEW{Abil}{\aBattleRage}{
   \s\MYname	{Battle Rage}
-  \s\MYtext	{If you are being wounded by an attack that you cannot normally resist, resist it freely. For the next 1 minute, you get +5 CR. After this duration, you are fatigued and enter the ``Knocked Out'' state. Wake up in 5 minutes healthy.}
+  \s\MYtext	{If you are being wounded by an attack that you cannot normally resist, resist it freely. For the next 1 minute, you get +10 CR. After this duration, you are fatigued and enter the ``Knocked Out'' state. Wake up in 5 minutes healthy. This ability has a 30 min cool down.}
   \s\MYeffect	{Your attack bounces off and you see my eyes glow red.}
   }
 	
 \NEW{Abil}{\aBlink}{
   \s\MYname	{Teleport}
-  \s\MYtext	{If you would be attacked you may dimensionally teleport to the teleporter Room. Upon arrival in the Teleporter Room you are knocked out for 5 minutes. This ablity cannot be be used while wouned or knocked out, or if you hear the word "`Somnus!"' before blinking.}
+  \s\MYtext	{If you are attacked, you may go ``Not Here'' instead of being hit. Any time in the next 5 minutes, you may come back into game at any location in gamespace by switching your badge back. If you are waylaid, you cannot use this ability.}
   \s\MYeffect	{Just as you were about to strike, your foe vanishes!}
   }
 	
 \NEW{Abil}{\aAbyss}{
   \s\MYname	{Hell Fire}
-  \s\MYtext	{If you would be knocked out or wounded you may immediately make a knock out attack of cr 15 on everyone within 2 zones of control. This ablity has a 1 hour cool down.}
+  \s\MYtext	{If you would be knocked out or wounded you may immediately make a knock out attack of CR 15 on everyone within 1 zones of control. This ability has a 1 hour cool down.}
   \s\MYeffect	{Just as you were about to strike, a blast of dark fire shoot forth}
+  }
+  
+\NEW{Abil}{\aTamper}{
+  \s\MYname	{Seduce Scout}
+  \s\MYtext	{Up to 3 times in game, you may dispatch a succubus to go seduce a scout. This allows you to modify the reports coming in about army movements. You may make any army (including your own) appear to be in one of the following states: Committed to Monster Army, Committed to Human Army, or Seeking Asylum with the Humans. This effect will last for 15 minutes, after which a new scout will report the true movements of the Army  (you may chain uses of this ability to continue obfuscating Army movements). When you activate this ability, tell a GM which Army you want reported in what state.}
+  \s\MYeffect	{No effect.}
   }
 	
 \NEW{Abil}{\aSmokeBomb}{
@@ -82,14 +88,14 @@
 	
 \NEW{Abil}{\aPhylactery}{
   \s\MYname	{Phylactery}
-  \s\MYtext	{If you would be killed: your body disintegrates into nothingness, go ``Not Here'' and reform in a separate room of your choice in gamespace. You can only be killed when your phylactery has been destroyed.}
+  \s\MYtext	{As long as your phylactery is intact, you cannot be permanently killed. If you would be killed by normal mechanics (bleed out from wound, killing blow, etc) you body disintegrates into nothing, but your spirit endures. Go ``Not here'' and reform in a separate room of your choice in gamespace. If your phylactery is destroyed, this ability no longer processes and you can be killed as normal.}
   \s\MYeffect	{An unimpressed expression forms on my face as I disintegrate into the ground.}
   }
 	
 \NEW{Abil}{\aBloodBank}{
   \s\MYname	{Blood Bank}
-  \s\MYtext	{Using all the stored blood you have you may return from death once. Pretend to be dead and when you choose you may return to game in the spot where you where struck down. You may only pretend to be dead for a maximum of thirty minutes}
-  \s\MYeffect	{The Vampires eyes fill with life as it rises from the dead}
+  \s\MYtext	{Using all the stored blood you have you may return from death once. Pretend to be dead for up to 30 minutes, and when you choose, return to game in the spot where you where struck down.}
+  \s\MYeffect	{The Vampire's eyes fill with life as it rises from the dead}
   }
 
 \NEW{Abil}{\aRiddleMeThis}{
@@ -99,8 +105,8 @@
   }
 \NEW{Abil}{\aHealer}{
   \s\MYname	{Healer}
-  \s\MYtext	{You must touch the intented wounded target for three minutes, afterwhich they become knocked out for the remaining time they would be wounded. This ablity can be stopped by other players.}
-  \s\MYeffect	{This person is applying first aid though magic. This ablity can be stopped by other players.}
+  \s\MYtext	{You must touch (OOC ask permission first, or just pretend) the intended wounded target for three minutes (this stops their bleed out timer), after which they become knocked out for the remaining time they would be wounded. This ability can be interrupted.}
+  \s\MYeffect	{This person is applying first aid though magic. This ability can be interrupted.}
   }
 \NEW{Abil}{\aBagofHolding}{
   \s\MYname	{Bag of Holding}
@@ -110,8 +116,8 @@
 	
 \NEW{Abil}{\aStoneGaze}{
   \s\MYname	{Stone Gaze}
-  \s\MYtext	{If you would be attacked you may, you freeze your enemies for 5 minutes. They enter the``Knocked Out, but since they become a statue they cannot be targeted by attacks, killing blows, or searches. This move has a 30 minute cool down.}
-  \s\MYeffect	{You are turn to stone. You enter the``Knocked Out'' state, but because you are now a statue you cannot be targeted by attacks, killing blows, or searches.}
+  \s\MYtext	{When you make a dark water attack, instead of ``knock out'' or ``wound'', you may turn someone to stone for 5 minutes instead. The target is invulnerable to further attacks, searches ,or killing blows for this time.}
+  \s\MYeffect	{You are turn to stone for 5 minutes. You are now a statue and  cannot be targeted by attacks, killing blows, or searches.}
   }
 %% Basic DarkWater-style Martial Attack abilities
 
@@ -174,8 +180,8 @@
   }
 	
 	\NEW{Abil}{\aBloodlust}{
-		\s\MYname {Bloodlust}
-		\s\MYtext {When you point at a player, you can inspire bloodlust in them and they will attack the nearest creature aside from you until either the creature is dead or they are dead or knocked out. You can use this ability once per minute.}
+		\s\MYname {Blood Lust}
+		\s\MYtext {When you point at a player, you can inspire bloodlust in them and they will attack the nearest creature aside from you until either the creature is dead or they are dead or knocked out. You can use this ability once every 5 minutes.}
 		\s\MYeffect {You have an uncontrollable urge to kill the nearest creature other than me. Attack them until they are dead or you are dead or knocked out.}
 }
 	\NEW{Abil}{\aFirebreath}{
@@ -187,7 +193,13 @@
 	\NEW{Abil}{\aNegotiate}{
 		\s\MYname {Influence with Humans}
 		\s\MYtext {If you accompany another army leader down The Windy Corridor and they show you a missive they are dispatching to make peace with the humans, you can use your influence to help or hurt their case. Draw a circle on the back of a missive to make the asylum request more likely to succeed. Draw a triangle on the back of a missive to make the asylum request more likely to fail.}
-		\s\MYeffect {I can influence missives dispatched to humans.}
+		\s\MYeffect {I can influence missives dispatched to humans. Instead of seeking asylum, you also have the option to commit your forces to help the human army.}
+		}
+		
+	\NEW{Abil}{\aBetrayal}{
+		\s\MYname {Betrayal of your own kind}
+		\s\MYtext {This is a one time use ability granted to you by your God to sow the seeds of war, chaos and destruction. If you accompany another army leader down the Windy Corridor and they show you a missive they are dispatching to commit to the Monster army, you may draw a star on the back of the missive to indicate that this army is imbued with the power of betrayal. Have the leader write the name of the faction they wish to betray next to the star.}
+		\s\MYeffect {You may commit your forces to betraying another army. Neither your forces nor theirs will contribute to the Monster army in the battle to come, and the betrayed army will be decimated.}
 		}
 		
 		\NEW{Abil}{\aCommitForces}{
@@ -225,10 +237,11 @@
 			\s\MYtext {This ability allows you to fly}
 			\s\MYeffect {If a mechanic specifically limits access to people who can fly, you have access.}
 			}
+			
 			\NEW{Abil}{\aForge}{
 				\s\MYname {Forge}
 				\s\MYtext {You can reforge broken weapons in the Golem Lab}
-				\s\MYeffect {If you have all four pieces of the Vorpal Sword of Wonder, you may reforge it by getting a level 3 hand in decking in the Golem Lab. If you do so, tell a GM}
+				\s\MYeffect {If you have  four pieces of a broken weapon, you may reforge it by getting a level 3 hand in decking in the Golem Lab. If you do so, tell a GM.}
 				}
 		
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
