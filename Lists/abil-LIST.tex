@@ -116,7 +116,7 @@
 	
 \NEW{Abil}{\aStoneGaze}{
   \s\MYname	{Stone Gaze}
-  \s\MYtext	{When you make a dark water attack, instead of ``knock out'' or ``wound'', you may turn someone to stone for 5 minutes instead. The target is invulnerable to further attacks, searches ,or killing blows for this time.}
+  \s\MYtext	{When you make a dark water attack, instead of ``knock out'' or ``wound'', you may turn someone to stone for 5 minutes instead. The target is invulnerable to further attacks, searches ,or killing blows for this time. You cannot be assisted when using this ability.}
   \s\MYeffect	{You are turn to stone for 5 minutes. You are now a statue and  cannot be targeted by attacks, killing blows, or searches.}
   }
 %% Basic DarkWater-style Martial Attack abilities
@@ -246,13 +246,19 @@
 				
 \NEW{Abil}{\aStudyMonsterSoul}{
 				\s\MYname {Study Monster Soul}
-				\s\MYtext {In order to study a monster soul you must have access to it, either by a member of that species showing you willingly, an unconscious target, or a soul that has somehow been separated from its host (Demons are rumored to be able to steal souls). With the help of \cDemon{}, \cTreeFae{}, or \cWizard{} you may spend 2 minutes examining the soul, after which, you have gained the knowledge of how to resurrect any member of that species.}
+				\s\MYtext {In order to study a monster soul you must have access to it, either by a member of that species showing you willingly, an unconscious target, or a soul that has somehow been separated from its host (Demons are rumored to be able to steal souls). With the help of \cDemon{}, \cTreeFae{}, or \cWizard{} you may spend 2 minutes examining the soul, after which, you have gained the knowledge of how to resurrect any member of that species as your mindless servant.}
 				\s\MYeffect {I give you a piercing look that seems to reach to your very soul.}
 				}		
 
+\NEW{Abil}{\aRaiseZombie}{
+				\s\MYname {Raise a Zombie}
+				\s\MYtext {If you have successfully used \aStudyMonsterSoul{} on a monster such that you have learned how to resurrect that species as a zombie, and you find a dead body of that species, you may spend 2 minutes to raise the corpse as your zombie servant. They will have CR 5 less than they had in life, and must follow your orders. Conveniently, they have very little brains and tend to interpret your orders quite literally.}
+				\s\MYeffect {I raise you as my zombie servant. You have a CR equal to 5 less than you had in life. Find a GM.}
+				}	
+
 \NEW{Abil}{\aSoulContract}{
 				\s\MYname {Soul Contract}
-				\s\MYtext {You have the ability to make a contract with a character in exchange for their soul. Verbally agree on the contract and shake hands, then have the character give you their ``Soul'' item. You may at any time null/void a contract by returning the character's soul to them. You may show other characters souls that you have collected, but they are bound to you the same as your own soul and cannot be stolen/taken, but you may give a soul away as part of a contract (including your own). These contracts are not of the binding magical variety (no mechanic requires you to honor a contract), but people who breech contract are bad for business.}
+				\s\MYtext {You have the ability to make a contract with a character in exchange for their soul. Verbally agree on the contract and shake hands, then have the character give you their ``Soul'' item. You may at any time null/void a contract by returning the character's soul to them. You may show other characters souls that you have collected, but they are bound to you the same as your own soul and cannot be stolen/taken, but you may give a soul away as part of a contract (including your own). These contracts are not of the binding magical variety (no mechanic requires you to honor a contract), but people who breech contract are bad for business. \emph{You can only make contracts for items and information. You cannot grant wishes/ new powers/ futures/ etc.}}
 				\s\MYeffect {We agree to a contract. You must give me your ``Soul'' item.}
 				}	
 
