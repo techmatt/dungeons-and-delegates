@@ -1,1 +1,13 @@
 /LaTeX/guildcamp2_path.cls
+/Bluesheets/*.aux
+/Bluesheets/*.log
+/Bluesheets/*.pdf
+/Bluesheets/*.gz
+/Charsheets/*.aux
+/Charsheets/*.log
+/Charsheets/*.pdf
+/Charsheets/*.gz
+/Greensheets/*.aux
+/Greensheets/*.log
+/Greensheets/*.pdf
+/Greensheets/*.gz
