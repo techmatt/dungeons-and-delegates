@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.23)  25 SEP 2016 15:33
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.23)  25 SEP 2016 19:55
 entering extended mode
 **C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/demon.tex
 (C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/demon.tex
@@ -418,7 +418,7 @@ Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\setspace\setspace.sty"
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-No file demon.aux.
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Charsheets\demon.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
 LaTeX Font Info:    ... okay on input line 2.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 2.
@@ -427,6 +427,7 @@ LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 2.
 LaTeX Font Info:    ... okay on input line 2.
 LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 2.
 LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 2.
+
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omspzccm.fd"
 File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
@@ -467,41 +468,41 @@ Missing character: There is no ’ in font ptmr7t!
 Missing character: There is no ’ in font ptmr7t!
 Missing character: There is no é in font ptmr7t!
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 26.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 25.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 26.
-LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 26
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 25.
+LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 25
 .
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1ptmcm.fd"
 File: ot1ptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ptmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 26
+LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 25
 .
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omlptmcm.fd"
 File: omlptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+psycm on input line 26
+LaTeX Font Info:    Try loading font information for OMX+psycm on input line 25
 .
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omxpsycm.fd"
 File: omxpsycm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/psycm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 26.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 25.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 26.
-LaTeX Font Info:    Try loading font information for U+lasy on input line 26.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 25.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 25.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ulasy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 26.
+LaTeX Font Info:    Try loading font information for U+msa on input line 25.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 26.
+LaTeX Font Info:    Try loading font information for U+msb on input line 25.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -515,14 +516,17 @@ Non-PDF special ignored!{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!]
+Missing character: There is no “ in font ptmr7t!
+Missing character: There is no ” in font ptmr7t!
+
 (C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/demon.tex)
 [2] [3]
 (C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Charsheets\demon.aux) ) 
 Here is how much of TeX's memory you used:
- 10014 strings out of 493921
- 115448 string characters out of 3144876
- 267055 words of memory out of 3000000
- 13151 multiletter control sequences out of 15000+200000
+ 10026 strings out of 493921
+ 115673 string characters out of 3144876
+ 262840 words of memory out of 3000000
+ 13161 multiletter control sequences out of 15000+200000
  21885 words of font info for 53 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  45i,13n,53p,899b,1504s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -531,7 +535,7 @@ Here is how much of TeX's memory you used:
 es (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/Mi
 KTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
 nts/type1/urw/times/utmri8a.pfb>
-Output written on demon.pdf (3 pages, 52981 bytes).
+Output written on demon.pdf (3 pages, 53404 bytes).
 PDF statistics:
  25 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
