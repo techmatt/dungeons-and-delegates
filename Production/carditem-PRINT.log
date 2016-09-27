@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.23)  8 SEP 2016 19:49
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.23)  26 SEP 2016 19:46
 entering extended mode
 **C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Production/carditem-PRINT
 .tex
@@ -446,7 +446,8 @@ Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
 \temp@dimen=\dimen155
 \temp@box=\box69
 
-No file carditem-PRINT.aux.
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\carditem-PRINT.
+aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
@@ -456,7 +457,7 @@ LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 3.
 LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 3.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omspzccm.fd"
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omspzccm.fd"
 File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
 )
 LaTeX Font Info:    ... okay on input line 3.
@@ -544,6 +545,10 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
 (Font)              scaled to size 10.79993pt on input line 5.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <8> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 5.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 7.19995pt on input line 5.
 
 (C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\carditem-PRINT.
 aux)
@@ -595,6 +600,10 @@ aux) [1
 
 ] [2]
 (C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/troll.tex)
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\carditem-PRINT.
+aux) [1
+
+] [2]
 (C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/babyFae.tex)
 (C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\carditem-PRINT.
 aux) [1
@@ -606,13 +615,25 @@ aux) [1
 
 ] [2]
 (C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/minotaur.tex)
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\carditem-PRINT.
+aux) [1
+
+] [2]
 (C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/red.tex)
 (C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\carditem-PRINT.
 aux) [1
 
 ] [2]
 (C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/basilisk.tex)
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\carditem-PRINT.
+aux) [1
+
+] [2]
 (C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/sphinx.tex)
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\carditem-PRINT.
+aux) [1
+
+] [2]
 (C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/wizard.tex)
 (C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\carditem-PRINT.
 aux) [1
@@ -627,10 +648,6 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <8> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 5.
-LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
-(Font)              scaled to size 7.19995pt on input line 5.
 LaTeX Font Info:    Try loading font information for TS1+phv on input line 5.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ts1phv.fd"
 File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
@@ -773,20 +790,20 @@ aux) [1
 (C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\carditem-PRINT.
 aux) ) 
 Here is how much of TeX's memory you used:
- 10208 strings out of 493921
- 125521 string characters out of 3144876
- 267240 words of memory out of 3000000
- 13205 multiletter control sequences out of 15000+200000
+ 10418 strings out of 493921
+ 127881 string characters out of 3144876
+ 276784 words of memory out of 3000000
+ 13405 multiletter control sequences out of 15000+200000
  35342 words of font info for 79 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 48i,13n,53p,1644b,1524s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 48i,13n,53p,1699b,1528s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Pr
 ogram Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Fi
 les (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files (x86
 )/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on carditem-PRINT.pdf (78 pages, 108589 bytes).
+Output written on carditem-PRINT.pdf (86 pages, 122142 bytes).
 PDF statistics:
- 266 PDF objects out of 1000 (max. 8388607)
+ 292 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
