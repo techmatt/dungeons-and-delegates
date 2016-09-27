@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.23)  8 SEP 2016 19:50
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.23)  26 SEP 2016 21:10
 entering extended mode
 **C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Production/sign-PRINT.tex
 
@@ -443,7 +443,7 @@ Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
 \text@box=\box69
 \trig@box=\box70
 
-No file sign-PRINT.aux.
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\sign-PRINT.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
@@ -609,76 +609,24 @@ Non-PDF special ignored!
 [1
 
 ] [2]
-Missing character: There is no ‚ in font phvr7t!
-Missing character: There is no Ä in font phvr7t!
-Missing character: There is no ú in font phvr7t!
-Missing character: There is no ‚ in font phvr7t!
-Missing character: There is no Ä in font phvr7t!
 Missing character: There is no ù in font phvr7t!
-Missing character: There is no ‚ in font phvr7t!
-Missing character: There is no Ä in font phvr7t!
-Missing character: There is no ú in font phvr7t!
-Missing character: There is no ‚ in font phvr7t!
-Missing character: There is no Ä in font phvr7t!
 Missing character: There is no ù in font phvr7t!
-Missing character: There is no ‚ in font phvr7t!
-Missing character: There is no Ä in font phvr7t!
-Missing character: There is no ú in font phvr7t!
-Missing character: There is no ‚ in font phvr7t!
-Missing character: There is no Ä in font phvr7t!
 Missing character: There is no ù in font phvr7t!
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 5.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 10.79993pt on input line 5.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <12> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 5.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 10.79993pt on input line 5.
 
 (C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\sign-PRINT.aux)
 [1
 
 ] [2]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\sign-PRINT.aux)
-[1
-
-] [2]
-Missing character: There is no ‚ in font phvr7t!
-Missing character: There is no Ä in font phvr7t!
-Missing character: There is no ô in font phvr7t!
-
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\sign-PRINT.aux)
-[1
-
-] [2]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\sign-PRINT.aux)
-[1
-
-] [2]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\sign-PRINT.aux)
-[1
-
-] [2]
-Missing character: There is no ‚ in font phvr7t!
-Missing character: There is no Ä in font phvr7t!
-Missing character: There is no ô in font phvr7t!
-
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\sign-PRINT.aux)
-[1
-
-] [2]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\sign-PRINT.aux)
-[1
-
-] [2]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\sign-PRINT.aux)
-[1
-
-] [2]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\sign-PRINT.aux)
-[1
-
-] [2]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\sign-PRINT.aux)
-[1
-
-] [2]
-Missing character: There is no ‚ in font phvr7t!
-Missing character: There is no Ä in font phvr7t!
-Missing character: There is no ô in font phvr7t!
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 15.55188pt on input line 5.
 
 (C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\sign-PRINT.aux)
 [1
@@ -720,10 +668,42 @@ Missing character: There is no ô in font phvr7t!
 [1
 
 ] [2]
-Missing character: There is no ‚ in font phvr7t!
-Missing character: There is no Ä in font phvr7t!
-Missing character: There is no ô in font phvr7t!
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\sign-PRINT.aux)
+[1
 
+] [2]
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\sign-PRINT.aux)
+[1
+
+] [2]
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\sign-PRINT.aux)
+[1
+
+] [2]
+LaTeX Font Info:    Try loading font information for TS1+phv on input line 5.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ts1phv.fd"
+File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
+)
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\sign-PRINT.aux)
+[1
+
+] [2]
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\sign-PRINT.aux)
+[1
+
+] [2]
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\sign-PRINT.aux)
+[1
+
+] [2]
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\sign-PRINT.aux)
+[1
+
+] [2]
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\sign-PRINT.aux)
+[1
+
+] [2]
 (C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\sign-PRINT.aux)
 [1
 
@@ -827,19 +807,20 @@ Missing character: There is no ô in font phvr7t!
 (C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\sign-PRINT.aux)
  ) 
 Here is how much of TeX's memory you used:
- 10133 strings out of 493921
- 126139 string characters out of 3144876
- 252935 words of memory out of 3000000
- 13114 multiletter control sequences out of 15000+200000
- 27504 words of font info for 60 fonts, out of 3000000 for 9000
+ 10395 strings out of 493921
+ 128404 string characters out of 3144876
+ 269518 words of memory out of 3000000
+ 13367 multiletter control sequences out of 15000+200000
+ 34250 words of font info for 68 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 47i,13n,53p,1640b,1545s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 47i,13n,53p,1695b,1557s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files 
-(x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on sign-PRINT.pdf (106 pages, 116572 bytes).
+(x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files (x86)/Mi
+KTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on sign-PRINT.pdf (104 pages, 126235 bytes).
 PDF statistics:
- 351 PDF objects out of 1000 (max. 8388607)
+ 349 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
