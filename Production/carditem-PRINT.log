@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.23)  26 SEP 2016 21:40
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.23)  26 SEP 2016 21:54
 entering extended mode
 **C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Production/carditem-PRINT
 .tex
@@ -490,70 +490,72 @@ LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
 \everyMPtoPDFconversion=\toks33
 )
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 8.09995pt on input line 7.
-LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 7.
-LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
-(Font)              scaled to size 8.99994pt on input line 7.
-LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 7.
-LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
-(Font)              scaled to size 10.79993pt on input line 7.
+(Font)              scaled to size 4.49997pt on input line 5.
+ (C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/demon.tex)
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 7.19995pt on input line 7.
-LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 7.
+(Font)              scaled to size 8.09995pt on input line 5.
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 5.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 8.99994pt on input line 5.
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 5.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 10.79993pt on input line 5.
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 7.19995pt on input line 5.
+LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 5.
 
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1ptmcm.fd"
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1ptmcm.fd"
 File: ot1ptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ptmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 7.
+LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 5.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omlptmcm.fd"
 File: omlptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+psycm on input line 7.
+LaTeX Font Info:    Try loading font information for OMX+psycm on input line 5.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omxpsycm.fd"
 File: omxpsycm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/psycm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
-LaTeX Font Info:    Try loading font information for U+lasy on input line 7.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 5.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ulasy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 7.
+LaTeX Font Info:    Try loading font information for U+msa on input line 5.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 7.
+LaTeX Font Info:    Try loading font information for U+msb on input line 5.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 10.79993pt on input line 7.
-LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 4.49997pt on input line 7.
-LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <8> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 7.
-LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
-(Font)              scaled to size 7.19995pt on input line 7.
+(Font)              scaled to size 10.79993pt on input line 5.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <8> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 5.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 7.19995pt on input line 5.
 
 (C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\carditem-PRINT.
 aux)
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <9> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 7.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 5.
 LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
-(Font)              scaled to size 8.09995pt on input line 7.
+(Font)              scaled to size 8.09995pt on input line 5.
  [1
 Non-PDF special ignored!
 Non-PDF special ignored!
@@ -566,6 +568,7 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 
 ] [2]
+(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/ent.tex)
 (C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\carditem-PRINT.
 aux) [1
 
@@ -574,27 +577,105 @@ aux) [1
 aux) [1
 
 ] [2]
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <8> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 7.
-LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
-(Font)              scaled to size 7.19995pt on input line 7.
-
+(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/cleric.tex)
 (C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\carditem-PRINT.
 aux) [1
 
 ] [2]
+(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/vampire.tex)
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\carditem-PRINT.
+aux) [1
+
+] [2]
+(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/ezekiel.tex)
+(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/lich.tex)
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\carditem-PRINT.
+aux) [1
+
+] [2]
+(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/golem.tex)
+(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/treeFae.tex)
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\carditem-PRINT.
+aux) [1
+
+] [2]
+(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/troll.tex)
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\carditem-PRINT.
+aux) [1
+
+] [2]
+(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/babyFae.tex)
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\carditem-PRINT.
+aux) [1
+
+] [2]
+(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/onyx.tex)
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\carditem-PRINT.
+aux) [1
+
+] [2]
+(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/minotaur.tex)
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\carditem-PRINT.
+aux) [1
+
+] [2]
+(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/red.tex)
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\carditem-PRINT.
+aux) [1
+
+] [2]
+(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/basilisk.tex)
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\carditem-PRINT.
+aux) [1
+
+] [2]
+(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/sphinx.tex)
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\carditem-PRINT.
+aux) [1
+
+] [2]
+(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/wizard.tex)
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\carditem-PRINT.
+aux) [1
+
+] [2]
+(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/goblin.tex)
 (C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\carditem-PRINT.
 aux) [1
 
 ] [2]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
-LaTeX Font Info:    Try loading font information for TS1+phv on input line 7.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
+LaTeX Font Info:    Try loading font information for TS1+phv on input line 5.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ts1phv.fd"
 File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
 )
+! item card oversized
+! item card oversized
+! item card oversized
+! item card oversized
+! item card oversized
+! item card oversized
+! item card oversized
+! item card oversized
+! item card oversized
+! item card oversized
+! item card oversized
+! item card oversized
+! item card oversized
+
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\carditem-PRINT.
+aux) [1
+
+] [2]
+! item card oversized
+! item card oversized
+! item card oversized
+! item card oversized
+! item card oversized
+! item card oversized
 ! item card oversized
 
 (C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\carditem-PRINT.
@@ -614,22 +695,123 @@ aux) [1
 
 ] [2]
 (C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\carditem-PRINT.
+aux) [1
+
+] [2]
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\carditem-PRINT.
+aux) [1
+
+] [2]
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\carditem-PRINT.
+aux) [1
+
+] [2]
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\carditem-PRINT.
+aux) [1
+
+] [2]
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\carditem-PRINT.
+aux) [1
+
+] [2]
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\carditem-PRINT.
+aux) [1
+
+] [2]
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\carditem-PRINT.
+aux) [1
+
+] [2]
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\carditem-PRINT.
+aux) [1
+
+] [2]
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\carditem-PRINT.
+aux) [1
+
+] [2]
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\carditem-PRINT.
+aux) [1
+
+] [2]
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\carditem-PRINT.
+aux) [1
+
+] [2]
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\carditem-PRINT.
+aux) [1
+
+] [2]
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\carditem-PRINT.
+aux) [1
+
+] [2]
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\carditem-PRINT.
+aux) [1
+
+] [2]
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <8> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 5.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 7.19995pt on input line 5.
+
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\carditem-PRINT.
+aux) [1
+
+] [2]
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\carditem-PRINT.
+aux) [1
+
+] [2]
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\carditem-PRINT.
+aux) [1
+
+] [2]
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\carditem-PRINT.
+aux) [1
+
+] [2]
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\carditem-PRINT.
+aux) [1
+
+] [2]
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\carditem-PRINT.
+aux) [1
+
+] [2]
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\carditem-PRINT.
+aux) [1
+
+] [2]
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\carditem-PRINT.
+aux) [1
+
+] [2]
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\carditem-PRINT.
+aux) [1
+
+] [2]
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\carditem-PRINT.
+aux) [1
+
+] [2]
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\carditem-PRINT.
 aux) ) 
 Here is how much of TeX's memory you used:
- 9867 strings out of 493921
- 115398 string characters out of 3144876
- 268909 words of memory out of 3000000
- 12972 multiletter control sequences out of 15000+200000
- 36496 words of font info for 80 fonts, out of 3000000 for 9000
+ 10431 strings out of 493921
+ 128278 string characters out of 3144876
+ 281789 words of memory out of 3000000
+ 13414 multiletter control sequences out of 15000+200000
+ 35342 words of font info for 79 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 48i,13n,53p,871b,1056s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 48i,13n,53p,1699b,1533s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Pr
 ogram Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Fi
 les (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files (x86
 )/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on carditem-PRINT.pdf (18 pages, 56282 bytes).
+Output written on carditem-PRINT.pdf (90 pages, 126568 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
+ 304 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
