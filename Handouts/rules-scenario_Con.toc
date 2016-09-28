@@ -1,0 +1,41 @@
+\contentsline {section}{\numberline {1}Scenario}{1}
+\contentsline {section}{\numberline {2}Getting Started}{1}
+\contentsline {subsection}{\numberline {2.1}Character Packets}{1}
+\contentsline {paragraph}{Name-Badge:}{1}
+\contentsline {paragraph}{Character Sheet:}{1}
+\contentsline {paragraph}{Bluesheets:}{1}
+\contentsline {paragraph}{Greensheets:}{1}
+\contentsline {paragraph}{Stat Card:}{2}
+\contentsline {paragraph}{Ability Cards:}{2}
+\contentsline {paragraph}{Memory/Event Packets:}{2}
+\contentsline {paragraph}{Items:}{2}
+\contentsline {subsection}{\numberline {2.2}Reality and Game Reality}{2}
+\contentsline {paragraph}{Halts:}{2}
+\contentsline {paragraph}{Not-Here:}{2}
+\contentsline {paragraph}{Observers:}{2}
+\contentsline {paragraph}{Non-Player-Characters:}{2}
+\contentsline {paragraph}{Mechanics:}{3}
+\contentsline {paragraph}{Safety:}{3}
+\contentsline {subsection}{\numberline {2.3}Basic Strategy}{3}
+\contentsline {section}{\numberline {3}Items Etc.}{3}
+\contentsline {paragraph}{Written Information:}{3}
+\contentsline {paragraph}{Envelopes:}{4}
+\contentsline {paragraph}{Signs:}{4}
+\contentsline {paragraph}{Bulkiness:}{4}
+\contentsline {paragraph}{Props:}{4}
+\contentsline {paragraph}{Character Bodies:}{4}
+\contentsline {paragraph}{Unstashable Items:}{4}
+\contentsline {subsection}{\numberline {3.1}Searching, Stashing, and Stealing}{4}
+\contentsline {paragraph}{Places:}{4}
+\contentsline {paragraph}{People:}{4}
+\contentsline {section}{\numberline {4}Violence, Damage, and Death}{4}
+\contentsline {subsection}{\numberline {4.1}Health States}{4}
+\contentsline {subsection}{\numberline {4.2}Weapons}{5}
+\contentsline {subsection}{\numberline {4.3}Killing Blow}{5}
+\contentsline {subsection}{\numberline {4.4}Martial Combat}{5}
+\contentsline {subsection}{\numberline {4.5}Stealth}{5}
+\contentsline {section}{\numberline {5}Miscellaneous}{6}
+\contentsline {paragraph}{Headband Colors:}{6}
+\contentsline {paragraph}{Soul Items:}{6}
+\contentsline {paragraph}{Rope:}{6}
+\contentsline {section}{\numberline {6}Closing Notes}{6}
