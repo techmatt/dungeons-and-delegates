@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.23)  15 SEP 2016 21:42
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.23)  29 SEP 2016 19:51
 entering extended mode
 **C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Production/listgreen-PRIN
 T.tex
@@ -20,7 +20,7 @@ ishmax, welsh, loaded.
 (C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\LaTeX\guildcamp2_path.cls)
 (C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/LaTeX/gametex.sty
 Document Class: guildcamp2 
-  --- Dungeons and Delegates --- Today ---
+  --- Dungeons and Delegates --- Oct 1, 2016 ---
 \@multicount=\count79
 \@mapbox=\box26
 \@@@unique=\count80
@@ -461,47 +461,49 @@ LaTeX Font Info:    ... okay on input line 3.
 \MPnumerator=\count132
 \makeMPintoPDFobject=\count133
 \everyMPtoPDFconversion=\toks33
-) (C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/README.tex)
+) (C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/demon.tex)
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
+.aux)
+(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/battle.tex)
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
-
-  TODO: This is a test greensheet.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 5.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 6.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 5.
-LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 5.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 6.
+LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 6.
+
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1ptmcm.fd"
 File: ot1ptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ptmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 5.
+LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 6.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omlptmcm.fd"
 File: omlptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+psycm on input line 5.
+LaTeX Font Info:    Try loading font information for OMX+psycm on input line 6.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omxpsycm.fd"
 File: omxpsycm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/psycm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
-LaTeX Font Info:    Try loading font information for U+lasy on input line 5.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 6.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ulasy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 5.
+LaTeX Font Info:    Try loading font information for U+msa on input line 6.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 5.
+LaTeX Font Info:    Try loading font information for U+msb on input line 6.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -514,117 +516,13 @@ Non-PDF special ignored!{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 Non-PDF special ignored!
 Non-PDF special ignored!
-Non-PDF special ignored!] [2
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-.aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/DungeonMech.te
-x)
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
- [1
+Non-PDF special ignored!
 
 ] [2
 
 ]
 (C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
 .aux)
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-1.aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/enslaveritual.
-tex) [1
-
-] [2
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-1.aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/killritual.tex
-) [1
-
-] [2
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-1.aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/treeritual.tex
-) [1
-
-] [2
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-1.aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/memberpower.te
-x)
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
- [1
-
-] [2
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-1.aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/memberlore.tex
-) [1
-
-] [2
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-1.aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/onyxwardrepair
-.tex) [1
-
-] [2
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-1.aux)
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-2.aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/clericwardbrea
-king.tex) [1
-
-] [2
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-2.aux)
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-3.aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/gowrit.tex)
-[1
-
-] [2
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-3.aux)
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-4.aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/raisedead.tex)
-[1
-
-] [2
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-4.aux)
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-5.aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/Baptism.tex)
-[1
-
-] [2
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-5.aux)
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-6.aux)
 (C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/golem.tex)
 [1
 
@@ -632,43 +530,7 @@ king.tex) [1
 
 ]
 (C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-6.aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/theft.tex)
-[1
-
-] [2
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-6.aux)
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-7.aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/battleGMRefere
-nce.tex)
-Missing character: There is no ’ in font ptmr7t!
- [1
-
-] [2
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-7.aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/battle.tex)
-[1
-
-] [2
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-7.aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/polymorph.tex)
-[1
-
-] [2
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-7.aux)
+.aux)
 (C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/decking.tex)
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
@@ -679,42 +541,69 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 
 ]
 (C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-7.aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/sphinxriddles.
-tex) [1
-
-] [2]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-7.aux)
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-8.aux)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/endgame.tex)
+.aux) (C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/ent.tex)
+(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/battle.tex)
 [1
 
-] [2]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-8.aux)
-No file listgreen-PRINT9.aux.
-! \getextracts: ""C:/Users/Acata/Desktop/Larps/dungeons-and-delegates"/Greenshe
-ets/GMInstructions.tex" not found.
+] [2
 
+]
 (C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
-9.aux) ) 
-Here is how much of TeX's memory you used:
- 9711 strings out of 493921
- 119819 string characters out of 3144876
- 235820 words of memory out of 3000000
- 12719 multiletter control sequences out of 15000+200000
- 25084 words of font info for 57 fonts, out of 3000000 for 9000
- 841 hyphenation exceptions out of 8191
- 46i,12n,53p,5709b,1201s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/
-Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/Mi
-KTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on listgreen-PRINT.pdf (40 pages, 99349 bytes).
-PDF statistics:
- 145 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+.aux)
+(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/decking.tex)
+[1
 
+] [2
+
+]
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
+.aux)
+(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/treeritual.tex
+)
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 1.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ts1ptm.fd"
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+) [1
+
+] [2
+
+]
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
+.aux)
+Overfull \hbox (22.80559pt too wide) in paragraph at lines 6--10
+[]\OT1/ptm/m/n/10 Yorzelz                                                      
+                                                          Count                
+                                                                               
+   Ezekiel                                                                     
+                                           Xavier                              
+                                                                    Golem      
+                                                                               
+         Groz-nak                                                              
+                                                  Maer-wynn                    
+                                                                               
+             Mortag                                                            
+                                                    Nyx                        
+                                                                               
+         Onyx                                                                  
+                                            Gul-fim                            
+                                                                               
+     Ruby                                                                      
+                                        Ser-pen-tis                            
+                                                                               
+     Sphinx                                                                    
+                                            Tayschrenn                         
+                                                                               
+        Tun-mal               Test Place
+ []
+
+
+(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Greensheets/treeritual.tex
+)
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listgreen-PRINT
+.aux)
+! Extra }, or forgotten \endgroup.
+\@begin@tempboxa ...begingroup #2\color@endgroup }
+                                                  \def \width {\wd \@tempbox...
+l.11 \end{document}
+                   
+? 

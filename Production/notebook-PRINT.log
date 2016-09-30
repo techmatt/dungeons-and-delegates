@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.23)  8 SEP 2016 19:49
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.23)  29 SEP 2016 19:09
 entering extended mode
 **C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Production/notebook-PRINT
 .tex
@@ -20,7 +20,7 @@ ishmax, welsh, loaded.
 (C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\LaTeX\guildcamp2_path.cls)
 (C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/LaTeX/gametex.sty
 Document Class: guildcamp2 
-  --- Dungeons and Delegates --- Today ---
+  --- Dungeons and Delegates --- Oct 1, 2016 ---
 \@multicount=\count79
 \@mapbox=\box26
 \@@@unique=\count80
@@ -433,7 +433,8 @@ Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
 \temp@dimen=\dimen145
 \temp@box=\box66
 
-No file notebook-PRINT.aux.
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\notebook-PRINT.
+aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
@@ -443,7 +444,7 @@ LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 3.
 LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 3.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omspzccm.fd"
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omspzccm.fd"
 File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
 )
 LaTeX Font Info:    ... okay on input line 3.
@@ -497,13 +498,13 @@ LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
 (C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\notebook-PRINT.
 aux) ) 
 Here is how much of TeX's memory you used:
- 9927 strings out of 493921
- 116064 string characters out of 3144876
- 241351 words of memory out of 3000000
- 13052 multiletter control sequences out of 15000+200000
+ 10138 strings out of 493921
+ 117849 string characters out of 3144876
+ 255994 words of memory out of 3000000
+ 13261 multiletter control sequences out of 15000+200000
  5465 words of font info for 18 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 46i,2n,53p,1644b,1524s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 46i,2n,53p,1699b,1533s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 No pages of output.
 PDF statistics:

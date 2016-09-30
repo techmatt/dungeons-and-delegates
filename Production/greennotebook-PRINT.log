@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.23)  18 SEP 2016 12:09
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.23)  29 SEP 2016 19:09
 entering extended mode
 **C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Production/greennotebook-
 PRINT.tex
@@ -20,7 +20,7 @@ ishmax, welsh, loaded.
 (C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\LaTeX\guildcamp2_path.cls)
 (C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/LaTeX/gametex.sty
 Document Class: guildcamp2 
-  --- Dungeons and Delegates --- Today ---
+  --- Dungeons and Delegates --- Oct 1, 2016 ---
 \@multicount=\count79
 \@mapbox=\box26
 \@@@unique=\count80
@@ -433,7 +433,8 @@ Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
 \temp@dimen=\dimen145
 \temp@box=\box66
 
-No file greennotebook-PRINT.aux.
+(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\greennotebook-P
+RINT.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
@@ -443,7 +444,7 @@ LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 3.
 LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 3.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omspzccm.fd"
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omspzccm.fd"
 File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
 )
 LaTeX Font Info:    ... okay on input line 3.
@@ -483,19 +484,21 @@ LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
 (C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/vampire.tex)
 (C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/ezekiel.tex)
 (C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/lich.tex)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Notebooks/raisemonster.tex
-)
-LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 7.19995pt on input line 1.
+(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/golem.tex)
+(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/treeFae.tex)
+(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Notebooks/Ezekiel.tex)
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
 (Font)              scaled to size 8.99994pt on input line 1.
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 7.19995pt on input line 1.
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
 (Font)              scaled to size 8.09995pt on input line 1.
 LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 1.
 
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1ptmcm.fd"
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1ptmcm.fd"
 File: ot1ptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ptmcm.
 )
 LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 1.
@@ -531,18 +534,17 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 1.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <9> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 8.09995pt on input line 1.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
 (Font)              scaled to size 12.9599pt on input line 1.
 
 (C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\greennotebook-P
-RINT.aux)
-LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <9> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 1.
-LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
-(Font)              scaled to size 8.09995pt on input line 1.
- [1
+RINT.aux) [1
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
@@ -552,21 +554,6 @@ Non-PDF special ignored!{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
-
-] [2]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\greennotebook-P
-RINT.aux) [1
-
-] [2]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\greennotebook-P
-RINT.aux) [1
-
-] [2]
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/golem.tex)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/treeFae.tex)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Notebooks/Ezekiel.tex)
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\greennotebook-P
-RINT.aux) [1
 
 ] [2]
 (C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\greennotebook-P
@@ -614,38 +601,6 @@ RINT.aux) [1
 
 ] [2]
 (C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/red.tex)
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Notebooks/Reddragnotebook.
-tex)
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\greennotebook-P
-RINT.aux) [1
-
-] [2]
-(C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Notebooks/Reddragnotebook.
-tex) [3] [4
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\greennotebook-P
-RINT.aux) [1
-
-] [2]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\greennotebook-P
-RINT.aux) [1
-
-] [2]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\greennotebook-P
-RINT.aux) [1
-
-] [2] [3] [4
-
-]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\greennotebook-P
-RINT.aux) [1
-
-] [2]
-(C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\greennotebook-P
-RINT.aux) [1
-
-] [2]
 (C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/basilisk.tex)
 (C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Notebooks/stoneGaze.tex)
 (C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\greennotebook-P
@@ -694,19 +649,19 @@ RINT.aux) [1
 (C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\greennotebook-P
 RINT.aux) ) 
 Here is how much of TeX's memory you used:
- 10252 strings out of 493921
- 125841 string characters out of 3144876
- 246686 words of memory out of 3000000
- 13252 multiletter control sequences out of 15000+200000
- 25672 words of font info for 56 fonts, out of 3000000 for 9000
+ 10411 strings out of 493921
+ 125399 string characters out of 3144876
+ 258016 words of memory out of 3000000
+ 13436 multiletter control sequences out of 15000+200000
+ 24518 words of font info for 55 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 52i,13n,53p,2690b,1667s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 47i,13n,53p,2911b,1671s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<
 C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Progr
 am Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on greennotebook-PRINT.pdf (60 pages, 86974 bytes).
+Output written on greennotebook-PRINT.pdf (38 pages, 68204 bytes).
 PDF statistics:
- 204 PDF objects out of 1000 (max. 8388607)
+ 135 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

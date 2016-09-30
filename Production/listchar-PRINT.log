@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.23)  8 SEP 2016 19:44
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.23)  29 SEP 2016 19:04
 entering extended mode
 **C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Production/listchar-PRINT
 .tex
@@ -20,7 +20,7 @@ ishmax, welsh, loaded.
 (C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\LaTeX\guildcamp2_path.cls)
 (C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/LaTeX/gametex.sty
 Document Class: guildcamp2 
-  --- Dungeons and Delegates --- Today ---
+  --- Dungeons and Delegates --- Oct 1, 2016 ---
 \@multicount=\count79
 \@mapbox=\box26
 \@@@unique=\count80
@@ -472,13 +472,6 @@ Missing character: There is no — in font ptmr7t!
 Missing character: There is no ’ in font ptmr7t!
 Missing character: There is no ’ in font ptmr7t!
 Missing character: There is no é in font ptmr7t!
-Missing character: There is no — in font ptmr7t!
-Missing character: There is no ’ in font ptmr7t!
-Missing character: There is no ’ in font ptmr7t!
-Missing character: There is no ’ in font ptmr7t!
-Missing character: There is no ’ in font ptmr7t!
-Missing character: There is no ’ in font ptmr7t!
-Missing character: There is no ’ in font ptmr7t!
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
@@ -529,7 +522,10 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
 
-] [2] [3] [4
+]
+Missing character: There is no “ in font ptmr7t!
+Missing character: There is no ” in font ptmr7t!
+ [2] [3] [4
 
 ]
 (C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listchar-PRINT.
@@ -543,16 +539,19 @@ aux) (C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/cleric.tex
 ) (C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/cleric.tex)
 [1
 
-] [2
-
-]
+] [2]
 (C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listchar-PRINT.
 aux)
 (C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/vampire.tex)
 (C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/vampire.tex)
+Missing character: There is no ’ in font ptmr7t!
+Missing character: There is no ’ in font ptmr7t!
+
 [1
 
-] [2]
+]
+Missing character: There is no ’ in font ptmr7t!
+ [2]
 (C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listchar-PRINT.
 aux)
 (C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/ezekiel.tex)
@@ -565,12 +564,18 @@ aux)
 (C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listchar-PRINT.
 aux) (C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/lich.tex)
 (C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/lich.tex)
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
+Missing character: There is no ’ in font ptmr7t!
+Missing character: There is no ’ in font ptmr7t!
+Missing character: There is no ’ in font ptmr7t!
+Missing character: There is no ’ in font ptmr7t!
 
 [1
 
-] [2]
+]
+Missing character: There is no ’ in font ptmr7t!
+ [2] [3] [4
+
+]
 (C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listchar-PRINT.
 aux) (C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/golem.tex)
 (C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/golem.tex)
@@ -589,9 +594,20 @@ aux)
 (C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listchar-PRINT.
 aux) (C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/troll.tex)
 (C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/troll.tex)
+Missing character: There is no ’ in font ptmr7t!
+Missing character: There is no ’ in font ptmr7t!
+Missing character: There is no ’ in font ptmr7t!
+
 [1
 
-] [2]
+]
+Missing character: There is no “ in font ptmr7t!
+Missing character: There is no ” in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+Missing character: There is no ” in font ptmr7t!
+Missing character: There is no ’ in font ptmr7t!
+Missing character: There is no ’ in font ptmr7t!
+ [2]
 (C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listchar-PRINT.
 aux)
 (C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/babyFae.tex)
@@ -602,10 +618,6 @@ aux)
 (C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listchar-PRINT.
 aux) (C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/onyx.tex)
 (C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/onyx.tex)
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no ™ in font ptmr7t!
-
 [1
 
 ] [2]
@@ -613,8 +625,6 @@ Missing character: There is no ™ in font ptmr7t!
 aux)
 (C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/minotaur.tex)
 (C:/Users/Acata/Desktop/Larps/dungeons-and-delegates/Charsheets/minotaur.tex)
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 
@@ -659,13 +669,13 @@ aux)
 (C:\Users\Acata\Desktop\Larps\dungeons-and-delegates\Production\listchar-PRINT.
 aux) ) 
 Here is how much of TeX's memory you used:
- 10413 strings out of 493921
- 127040 string characters out of 3144876
- 260252 words of memory out of 3000000
- 13426 multiletter control sequences out of 15000+200000
+ 10624 strings out of 493921
+ 128683 string characters out of 3144876
+ 276004 words of memory out of 3000000
+ 13637 multiletter control sequences out of 15000+200000
  24167 words of font info for 56 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 46i,14n,53p,7730b,2059s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 46i,14n,53p,8993b,2069s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Pr
 ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Progr
 am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program
@@ -673,9 +683,9 @@ am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program
 )/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 2
 .9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
 pe1/urw/times/utmri8a.pfb>
-Output written on listchar-PRINT.pdf (38 pages, 163936 bytes).
+Output written on listchar-PRINT.pdf (40 pages, 183998 bytes).
 PDF statistics:
- 151 PDF objects out of 1000 (max. 8388607)
+ 157 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
