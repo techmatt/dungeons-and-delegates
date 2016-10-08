@@ -17,3 +17,7 @@
 /Production/carditem-PRINT.synctex.gz
 /Production/paperitem-PRINT.synctex.gz
 /Production/sign-PRINT.synctex.gz
+/Notebooks/*.aux
+/Notebooks/*.log
+/Notebooks/*.gz
+/Production/*.gz
