@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.8)  7 OCT 2016 08:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.8)  7 OCT 2016 23:42
 entering extended mode
 **./sign-PRINT.tex
 (sign-PRINT.tex
@@ -720,6 +720,12 @@ Non-PDF special ignored!
 
  [1
 
+] [2] (sign-PRINT.aux)
+\openout1 = `sign-PRINT.aux'.
+
+
+[1
+
 ] [2]
 Missing character: There is no ù in font phvr7t!
 Missing character: There is no ù in font phvr7t!
@@ -735,8 +741,7 @@ LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
  (sign-PRINT.aux)
 \openout1 = `sign-PRINT.aux'.
 
-
-[1
+ [1
 
 ] [2]
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
@@ -749,11 +754,6 @@ LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
 ] [2] (sign-PRINT.aux)
 \openout1 = `sign-PRINT.aux'.
 
- [1
-
-] [2] (sign-PRINT.aux)
-\openout1 = `sign-PRINT.aux'.
-
 
 [1
 
@@ -804,6 +804,11 @@ LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
 
 
 [1
+
+] [2] (sign-PRINT.aux)
+\openout1 = `sign-PRINT.aux'.
+
+ [1
 
 ] [2] (sign-PRINT.aux)
 \openout1 = `sign-PRINT.aux'.
@@ -981,12 +986,33 @@ File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
 
  [1
 
+] [2] (sign-PRINT.aux)
+\openout1 = `sign-PRINT.aux'.
+
+ [1
+
+] [2] (sign-PRINT.aux)
+\openout1 = `sign-PRINT.aux'.
+
+ [1
+
+] [2]
+(sign-PRINT.aux)
+\openout1 = `sign-PRINT.aux'.
+
+ [1
+
+] [2] (sign-PRINT.aux)
+\openout1 = `sign-PRINT.aux'.
+
+ [1
+
 ] [2] (sign-PRINT.aux) ) 
 Here is how much of TeX's memory you used:
- 15139 strings out of 493334
- 216689 string characters out of 3136664
- 349372 words of memory out of 3000000
- 18267 multiletter control sequences out of 15000+200000
+ 15159 strings out of 493334
+ 216900 string characters out of 3136664
+ 349901 words of memory out of 3000000
+ 18277 multiletter control sequences out of 15000+200000
  34250 words of font info for 68 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  47i,13n,45p,1634b,1559s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -994,9 +1020,9 @@ Here is how much of TeX's memory you used:
 name/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.
 pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/
 Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on sign-PRINT.pdf (106 pages, 127474 bytes).
+Output written on sign-PRINT.pdf (116 pages, 136669 bytes).
 PDF statistics:
- 355 PDF objects out of 1000 (max. 8388607)
+ 388 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

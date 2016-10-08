@@ -11,3 +11,9 @@
 /Greensheets/*.log
 /Greensheets/*.pdf
 /Greensheets/*.gz
+/Handouts/rules-scenario_Con.synctex.gz
+/Lists/item-LIST.log
+/Lists/sign-LIST.log
+/Production/carditem-PRINT.synctex.gz
+/Production/paperitem-PRINT.synctex.gz
+/Production/sign-PRINT.synctex.gz
