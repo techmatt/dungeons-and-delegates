@@ -34,8 +34,9 @@
 \contentsline {subsection}{\numberline {4.3}Killing Blow}{5}
 \contentsline {subsection}{\numberline {4.4}Martial Combat}{5}
 \contentsline {subsection}{\numberline {4.5}Stealth}{5}
-\contentsline {section}{\numberline {5}Miscellaneous}{6}
+\contentsline {section}{\numberline {5}Abilities}{6}
+\contentsline {section}{\numberline {6}Miscellaneous}{6}
 \contentsline {paragraph}{Headband Colors:}{6}
 \contentsline {paragraph}{Soul Items:}{6}
 \contentsline {paragraph}{Rope:}{6}
-\contentsline {section}{\numberline {6}Closing Notes}{6}
+\contentsline {section}{\numberline {7}Closing Notes}{6}
