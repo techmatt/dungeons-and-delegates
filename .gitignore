@@ -21,3 +21,5 @@
 /Notebooks/*.log
 /Notebooks/*.gz
 /Production/*.gz
+/Production/*.aux
+/Production/*.log

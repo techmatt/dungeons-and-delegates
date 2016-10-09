@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.8)  23 SEP 2016 23:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.8)  8 OCT 2016 10:31
 entering extended mode
 **./wizard.tex
 (wizard.tex
@@ -8,7 +8,7 @@ Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
 (C:\Code\LARPs\dungeons-and-delegates\LaTeX\guildcamp2_path.cls)
 (C:/Code/LARPs/dungeons-and-delegates/LaTeX/gametex.sty
 Document Class: guildcamp2 
-  --- Dungeons and Delegates --- Today ---
+  --- Dungeons and Delegates --- Oct 1, 2016 ---
 \@multicount=\count79
 \@mapbox=\box26
 \@@@unique=\count80
@@ -615,10 +615,10 @@ Non-PDF special ignored!]
 (C:/Code/LARPs/dungeons-and-delegates/Charsheets/wizard.tex) [2] [3]
 (wizard.aux) ) 
 Here is how much of TeX's memory you used:
- 14772 strings out of 493334
- 211229 string characters out of 3136664
- 331414 words of memory out of 3000000
- 18064 multiletter control sequences out of 15000+200000
+ 14812 strings out of 493334
+ 211531 string characters out of 3136664
+ 338125 words of memory out of 3000000
+ 18104 multiletter control sequences out of 15000+200000
  21378 words of font info for 52 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,13n,45p,1392b,1512s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -626,7 +626,7 @@ Here is how much of TeX's memory you used:
 c}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Progr
 am Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x
 86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on wizard.pdf (3 pages, 50484 bytes).
+Output written on wizard.pdf (3 pages, 51287 bytes).
 PDF statistics:
  25 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

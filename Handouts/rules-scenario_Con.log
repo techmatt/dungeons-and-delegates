@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.8)  7 OCT 2016 23:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.8)  8 OCT 2016 11:30
 entering extended mode
 **./rules-scenario_Con.tex
 (rules-scenario_Con.tex
@@ -8,7 +8,7 @@ Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
 (C:\Code\LARPs\dungeons-and-delegates\LaTeX\guildcamp2_path.cls)
 (C:/Code/LARPs/dungeons-and-delegates/LaTeX/gametex.sty
 Document Class: guildcamp2 
-  --- Dungeons and Delegates --- Oct 1, 2016 ---
+  --- Dungeons and Delegates --- Oct 16, 2016 ---
 \@multicount=\count79
 \@mapbox=\box26
 \@@@unique=\count80
@@ -631,10 +631,10 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
 ] [2] [3] [4] [5] [6]
 (rules-scenario_Con.aux) ) 
 Here is how much of TeX's memory you used:
- 14419 strings out of 493334
- 207634 string characters out of 3136664
- 324118 words of memory out of 3000000
- 17708 multiletter control sequences out of 15000+200000
+ 14429 strings out of 493334
+ 207705 string characters out of 3136664
+ 324803 words of memory out of 3000000
+ 17718 multiletter control sequences out of 15000+200000
  31541 words of font info for 74 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  43i,13n,45p,975b,293s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -642,7 +642,7 @@ Here is how much of TeX's memory you used:
 ntname/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.p
 fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Prog
 ram Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on rules-scenario_Con.pdf (8 pages, 73608 bytes).
+Output written on rules-scenario_Con.pdf (8 pages, 73612 bytes).
 PDF statistics:
  42 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
